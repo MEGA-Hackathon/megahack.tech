@@ -1,0 +1,18 @@
+.grid-lines-alignment {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    padding: 0px 276px;
+}
+.grid-lines {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.grid-line {
+    border-left: 1px dashed $grid-color;
+    height: 100%;
+}

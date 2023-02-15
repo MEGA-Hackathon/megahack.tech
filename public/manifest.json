@@ -1,0 +1,32 @@
+{
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Megahack 2023 - Sustainable Development Hackathon",
+    "short_name": "Megahack 2023",
+    "description": "Join the motivated and driven community at MEGA where innovators and problem solvers come together to create solutions for the UN's 17 sustainability goals. Benefit from our knowledge network and connections with NGO's, entrepreneurs, and tech companies. Experience the impact of a truly \"MEGA\" hackathon with 200  attendees from 20  countries, funding and awards worth over 50k and opportunities for growth.",
+    "icons": [
+        {
+            "src": "/favicons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicons/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicons/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

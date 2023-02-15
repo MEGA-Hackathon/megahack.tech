@@ -1,0 +1,25 @@
+.big-button-main {
+    cursor: pointer;
+
+    path:nth-child(1) {
+        fill: $main;
+        @include button-transition;
+    }
+    path:nth-child(2) {
+        stroke: $main;
+        @include button-transition;
+    }
+
+    &:hover {
+        path:nth-child(1) {
+            fill: $main-hovered;
+        }
+        path:nth-child(2) {
+            stroke: $main-hovered;
+        }
+    }
+
+    p {
+        font-size: 17px;
+    }
+}

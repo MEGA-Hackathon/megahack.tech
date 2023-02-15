@@ -1,0 +1,22 @@
+// Global
+@import "./global/Preferences.scss";
+@import "./global/Variables.scss";
+
+
+// Utilities
+@import "./utils/transitions.scss";
+
+
+// Pages
+@import "./pages/Home.scss";
+
+
+// Components and subcomponents
+// Components
+@import "./components/Nav.scss";
+@import "./components/GridLines.scss";
+@import "./components/SponsorScroll.scss";
+// Subcomponents
+@import "./components/subcomponents/Button.scss";
+@import "./components/subcomponents/BigButton.scss";
+
