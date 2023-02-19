@@ -55,5 +55,11 @@ body * {
 
 body {
 	overflow-x: hidden;
-	height: 500vh;
+	overflow-anchor: none;
+}
+
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	overflow-y: overlay;
 }

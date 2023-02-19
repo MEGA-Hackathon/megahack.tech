@@ -1,0 +1,63 @@
+.header-format {
+    padding-left: $header-align;
+}
+
+.header-format-subheader {
+    font-family: $montserrat;
+    color: $main;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.header-format-header {
+    font-size: 37px;
+    font-weight: 700;
+    font-family: $montserrat;
+    margin-top: 16px;
+    line-height: 50px;
+    max-width: 550px;
+}
+
+// Dark and Light
+.header-format-header-dark {
+    color: $dark-black;
+}
+.header-format-header-light {
+    color: $white;
+}
+
+
+.header-format-description {
+    margin-top: 32px;
+    max-width: 700px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: $poppins;
+}
+
+// Dark and Light
+
+.header-format-description-light {
+    color: $light-gray;
+}
+
+.header-format-description-dark {
+    color: $medium-gray;
+}
+
+.header-format-button {
+    margin-top: 43px;
+}
+
+.header-format-centered {
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 0px;
+}
+
+.header-format-header-centered {
+    max-width: 700px;
+}

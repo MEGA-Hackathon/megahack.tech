@@ -1,3 +1,12 @@
 @mixin button-transition {
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
+}
+
+@mixin arrow-transition {
+    $time: 0.3s;
+    transition: margin $time ease, transform $time ease, color $time ease;
+}
+
+@mixin text-transition {
+    transition: color 0.3s;
 }

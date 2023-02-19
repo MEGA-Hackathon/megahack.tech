@@ -22,4 +22,17 @@
     p {
         font-size: 17px;
     }
+
+    .button-align {
+        svg {
+            @include arrow-transition;
+        }
+    }
+
+
+    &:hover .button-align svg {
+        transform: translateX(4px);
+    }
+
+
 }

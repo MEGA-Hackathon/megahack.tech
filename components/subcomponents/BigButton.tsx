@@ -27,7 +27,7 @@ const BigButton = ({
                             <p>{text}</p>
                             {   arrow &&
                                 <svg width="25" height="14" viewBox="0 0 25 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M2 7.1413H23.5M23.5 7.1413L18.3587 2M23.5 7.1413L18.3587 12.2826" stroke="#EDE9F3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M2 7.1413H23.5M23.5 7.1413L18.3587 2M23.5 7.1413L18.3587 12.2826" stroke="#EDE9F3" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
                                 </svg>
                             }
                         </div>
@@ -44,7 +44,7 @@ const BigButton = ({
                             <p>{text}</p>
                             {   arrow &&
                                 <svg width="25" height="14" viewBox="0 0 25 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M2 7.1413H23.5M23.5 7.1413L18.3587 2M23.5 7.1413L18.3587 12.2826" stroke="#EDE9F3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M2 7.1413H23.5M23.5 7.1413L18.3587 2M23.5 7.1413L18.3587 12.2826" stroke="#EDE9F3" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
                                 </svg>
                             }
                         </div>

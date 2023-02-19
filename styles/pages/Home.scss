@@ -47,3 +47,65 @@
     position: relative;
     margin-top: 170px;
 }
+
+.home-about {
+    @include grid-layout;
+    margin-top: 450px;
+}
+
+.home-participation {
+    position: relative;
+}
+
+.home-schedule-image {
+    margin-top: 125px;
+}
+
+.home-events-wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 125px;
+    gap: 70px 80px;
+}
+
+.home-faq-main {
+    display: flex;
+    gap: 35px;
+    margin-top: 100px;
+}
+.home-faq-wrapper {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+
+.home-team-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 115px;
+    gap: 80px;
+    padding: 0px 40px;
+}
+
+$grid-gap: 35px;
+
+.home-gallery-container {
+    display: flex;
+    gap: $grid-gap;
+}
+
+.home-gallery-wrapper {
+    display: flex;
+    flex-flow: column;
+    gap: $grid-gap;
+    margin-top: 100px;
+    width: 245px;
+
+    img {
+        border-radius: 15px;
+    }
+}

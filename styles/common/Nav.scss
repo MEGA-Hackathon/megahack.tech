@@ -3,7 +3,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    padding: 0px 290px;
+    @include grid-layout(15px);
 }
 
 nav ul {
@@ -19,6 +19,12 @@ nav ul {
             color: $medium-gray;
             font-weight: 600;
             font-size: 15px;
+            @include text-transition;
+
+            &:hover {
+                color: $dark-black;
+
+            }
         }
     }
 }

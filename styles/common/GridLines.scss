@@ -1,10 +1,10 @@
 .grid-lines-alignment {
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     z-index: -1;
-    padding: 0px 276px;
+    @include grid-layout;
 }
 .grid-lines {
     width: 100%;

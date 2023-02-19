@@ -6,9 +6,9 @@ const Nav = () => {
         <nav>
             <img src="/branding/Megahack Logo With Text.png" alt="logo" />
             <ul>
-                <li><Link href="/#sponsors">Sponsors</Link></li>
-                <li><Link href="/#events">Events</Link></li>
-                <li><Link href="/#schedule">Schedule</Link></li>
+                <li><Link href="/#sponsors" scroll={false}>Sponsors</Link></li>
+                <li><Link href="/#events" scroll={false}>Events</Link></li>
+                <li><Link href="/#schedule" scroll={false}>Schedule</Link></li>
             </ul>
             <Button 
                 text="Join Now" 
