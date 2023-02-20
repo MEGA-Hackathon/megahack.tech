@@ -1,22 +1,36 @@
 // Global
-@import "./global/Preferences.scss";
 @import "./global/Variables.scss";
+@import "./global/Preferences.scss";
 
 
 // Utilities
 @import "./utils/transitions.scss";
+@import "./utils/layouts.scss";
 
 
 // Pages
 @import "./pages/Home.scss";
 
 
-// Components and subcomponents
-// Components
-@import "./components/Nav.scss";
-@import "./components/GridLines.scss";
-@import "./components/SponsorScroll.scss";
-// Subcomponents
-@import "./components/subcomponents/Button.scss";
-@import "./components/subcomponents/BigButton.scss";
+// Common
+@import "./common/Footer.scss";
+@import "./common/GridLines.scss";
+@import "./common/Nav.scss";
 
+
+// Layouts
+@import "./layouts/HeaderFormat.scss";
+@import "./layouts/HomeWhiteSection.scss";
+@import "./layouts/InfoSection.scss";
+@import "./layouts/SkewedSection.scss";
+
+
+// subcomponents
+@import "./subcomponents/BigButton.scss";
+@import "./subcomponents/Button.scss";
+@import "./subcomponents/EventCard.scss";
+@import "./subcomponents/FaqCard.scss";
+@import "./subcomponents/InfoSectionCard.scss";
+@import "./subcomponents/LearnMoreButton.scss";
+@import "./subcomponents/SponsorScroll.scss";
+@import "./subcomponents/TeamMember.scss";

@@ -1,0 +1,133 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    @include grid-layout(15px);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 320px;
+    
+    li {
+        a {
+            text-decoration: none;
+            font-family: $montserrat;
+            color: $medium-gray;
+            font-weight: 600;
+            font-size: 15px;
+            @include text-transition;
+
+            &:hover {
+                color: $dark-black;
+
+            }
+        }
+    }
+}
+
+.nav-hamburger {
+    display: none;
+}
+
+// The hamburger menu animation
+.nav-hamburger {
+	display: none;
+	z-index: 100;
+	cursor: pointer;
+
+	rect {
+		fill: $black;
+
+		&:nth-child(1) {
+			transition: transform 1s, opacity 1s;
+		}
+		&:nth-child(2) {
+			transition: transform 1s, opacity 1s;
+			opacity: 1;
+		}
+		&:nth-child(3) {
+			transition: transform 1s, opacity 1s;
+		}
+	}
+}
+
+.nav-hamburger-open {
+	rect {
+		fill: $white;
+		
+		&:nth-child(1) {
+			transform: translateY(9px) rotate(45deg);
+			transform-origin: center 0;
+		}
+		&:nth-child(2) {
+			transform: translateY(-10px) rotate(-45deg);
+			transform-origin: center 22px;
+		}
+		&:nth-child(3) {
+			opacity: 0;
+		}
+	}
+}
+
+
+.nav-dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 100vw;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    background: $black;
+    transition: left 1s cubic-bezier(.42,0,0,1.01);
+}
+
+.nav-dropdown-button {
+    margin-top: 125px;
+}
+
+.nav-dropdown-open {
+    left: 0;
+}
+
+.nav-dropdown-content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 60px;
+
+    li a {
+        font-size: 40px;
+        font-family: $montserrat;
+        font-weight: 700;
+        color: $white;
+        text-decoration: none;
+    }
+}
+
+
+@media screen and (max-width: $breakpoint-4) {
+    nav ul {
+        max-width: 280px;
+    }
+}
+
+@media screen and (max-width: $breakpoint-5) {
+    nav ul {
+        display: none;
+    }
+    nav .button-url {
+        display: none;
+    }
+    .nav-hamburger {
+        display: block;
+    }
+}

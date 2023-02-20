@@ -1,0 +1,82 @@
+.event-card {
+    display: flex;
+    flex-flow: column;
+    gap: 26px;
+    width: 385px;
+}
+
+.event-card-image {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 15px;
+}
+
+.event-card-image-overlay {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 17px;
+    backdrop-filter: blur(12.5px);
+    background: rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    font-family: $poppins;
+    color: $white;
+}
+
+.event-card-style {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.event-card-date {
+    font-weight: 300;
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+.event-card-category {
+    @extend .event-card-style;
+}
+
+.event-card-header {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: $poppins;
+    color: $dark-black;
+}
+
+.event-card-description {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: $medium-gray;
+    font-family: $poppins;
+}
+
+.event-card-button {
+    margin-top: 15px;
+}
+
+@media screen and (max-width: $breakpoint-6) {
+    .event-card {
+        max-width: 350px;
+    }
+    .event-card-image {
+        height: 180px;
+    }
+}
+@media screen and (max-width: $breakpoint-7) {
+    .event-card-header {
+        font-size: 18px;
+    }
+    .event-card-description {
+        font-size: 13px;
+    }
+}

@@ -1,21 +1,64 @@
+// Utilities
 import Link from "next/link"
+
+
+// Subcomponents
 import Button from "../subcomponents/Button"
+import BigButton from "../subcomponents/BigButton"
+
+
+// Hooks
+import { useState } from "react"
 
 const Nav = () => {
+    const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+    function changeMenu() {
+        setIsMenuOpen(!isMenuOpen)
+    }
+
+
+    if (typeof window !== "undefined") {
+        isMenuOpen ? document.body.style.overflow = "hidden" : document.body.style.overflow = "initial"
+    }
+
+
     return (
-        <nav>
-            <img src="/branding/Megahack Logo With Text.png" alt="logo" />
-            <ul>
-                <li><Link href="/#sponsors">Sponsors</Link></li>
-                <li><Link href="/#events">Events</Link></li>
-                <li><Link href="/#schedule">Schedule</Link></li>
-            </ul>
-            <Button 
-                text="Join Now" 
-                href="https://mega-hack-2022-spring.devpost.com/" 
-                newTab={true}
-            />
-        </nav>
+        <>
+            <nav>
+                <img src="/branding/Megahack Logo With Text.png" alt="logo" />
+                <ul>
+                    <li><Link href="/#sponsors" scroll={false}>Sponsors</Link></li>
+                    <li><Link href="/#events" scroll={false}>Events</Link></li>
+                    <li><Link href="/#schedule" scroll={false}>Schedule</Link></li>
+                </ul>
+                <Button 
+                    text="Join Now" 
+                    href="https://mega-hack-2022-spring.devpost.com/" 
+                    newTab={true}
+                />
+                {/* Hamburger menu */}
+                <svg width="27" height="22" viewBox="0 0 27 22" fill="none" xmlns="http://www.w3.org/2000/svg" className={isMenuOpen ? "nav-hamburger nav-hamburger-open" : "nav-hamburger"} onClick={changeMenu}>
+                    <rect width="27" height="4" rx="2" fill="#181818"/>
+                    <rect y="18" width="27" height="4" rx="2" fill="#181818"/>
+                    <rect x="11" y="9" width="16" height="4" rx="2" fill="#181818"/>
+                </svg>
+            </nav>
+            <div className={isMenuOpen ? "nav-dropdown nav-dropdown-open" : "nav-dropdown"}>
+                <ul className="nav-dropdown-content">
+                    <li onClick={changeMenu}><Link href="/#sponsors" scroll={false}>Sponsors</Link></li>
+                    <li onClick={changeMenu}><Link href="/#sponsors" scroll={false}>Events</Link></li>
+                    <li onClick={changeMenu}><Link href="/#sponsors" scroll={false}>Contact</Link></li>
+                </ul>
+                <BigButton 
+                    text="Join Now"
+                    href="https://mega-hack-2022-spring.devpost.com/"
+                    newTab={true}
+                    className="nav-dropdown-button"
+                    arrow={true}
+                />
+            </div>
+        </>
     )
 }
 

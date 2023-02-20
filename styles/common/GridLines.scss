@@ -1,10 +1,10 @@
 .grid-lines-alignment {
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     z-index: -1;
-    padding: 0px 276px;
+    @include grid-layout;
 }
 .grid-lines {
     width: 100%;
@@ -15,4 +15,14 @@
 .grid-line {
     border-left: 1px dashed $grid-color;
     height: 100%;
+}
+
+
+@media screen and (max-width: $breakpoint-7) {
+    .grid-line:nth-child(1) {
+        display: none;
+    }
+    .grid-line:nth-child(2) {
+        display: none;
+    }
 }

@@ -1,0 +1,86 @@
+.info-section-card {
+    position: relative;
+    padding: 0px 35px;
+    width: 100%;
+}
+.info-section-number {
+    font-family: $montserrat;
+    font-weight: 500;
+    font-size: 17px;
+    color: $light-gray;
+}
+.info-section-header {
+    position: relative;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    color: $black;
+    font-family: $montserrat;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: -35px;
+        height: 100%;
+        background: #BFBACC;
+        width: 1px;
+    }
+}
+.info-section-description {
+    margin-top: 25px;
+    font-weight: 500;
+    font-family: $montserrat;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.info-section-number-dark {
+    color: $medium-gray;   
+}
+
+.info-section-header-dark {
+    color: $white;
+
+    &::before {
+        background: #3B3940;
+    }
+}
+
+.info-section-description-dark {
+    color: $light-gray;
+}
+
+.info-section-button {
+    margin-top: 35px;
+}
+
+
+@media screen and (max-width: $breakpoint-3) {
+    .info-section-card {
+        padding: 0px 25px;
+    }
+    .info-section-header::before {
+        left: -25px;
+    }
+}
+
+@media screen and (max-width: $breakpoint-5) {
+    .info-section-card:not(:nth-child(1)) {
+        margin-top: 75px;
+    }
+    .info-section-description {
+        max-width: 650px;
+    }
+    .info-section-card {
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: $breakpoint-7) {
+    .info-section-header {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}

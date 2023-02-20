@@ -55,5 +55,18 @@ body * {
 
 body {
 	overflow-x: hidden;
-	height: 500vh;
+	overflow-anchor: none;
+	height: 100vh;
+}
+
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	overflow-y: overlay;
+}
+
+
+::selection {
+	color: $white;
+	background-color: $main;
 }

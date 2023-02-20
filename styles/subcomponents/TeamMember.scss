@@ -1,0 +1,34 @@
+.team-member {
+    display: flex;
+    text-align: center;
+    flex-flow: column;
+    align-items: center;
+    font-family: $montserrat;
+}
+
+.team-member-image {
+    border-radius: 1000px;
+    width: 70px;
+    height: 70px;
+}
+
+.team-member-name {
+    margin-top: 17px;
+    font-weight: 700;
+    font-size: 15px;
+    color: $white;
+}
+
+.team-member-role {
+    margin-top: 7px;
+    font-weight: 500;
+    font-size: 13px;
+    color: $light-gray;
+}
+
+@media screen and (max-width: $breakpoint-6) {
+    .team-member-image {
+        width: 55px;
+        height: 55px;
+    }
+}

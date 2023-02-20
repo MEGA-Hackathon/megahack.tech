@@ -1,7 +1,7 @@
 // Colors
 $grid-color: #EDE9F3;
 $main: #8B52FE;
-$main-hovered: rgb(99, 54, 223);
+$main-hovered: rgb(107, 59, 238);
 $medium-gray: #68666F;
 $dark-black: #222027;
 $light-gray: #9894A0;
@@ -13,3 +13,22 @@ $black: #171717;
 // Fonts
 $poppins: 'Poppins', sans-serif;
 $montserrat: 'Montserrat', sans-serif;
+
+
+// Layouts
+// This is used on a lot of headers to bring them out an amount of pixels
+$header-align: 35px;
+
+
+// Breakpoints for width
+$breakpoint-1: 1600px;
+$breakpoint-2: 1400px;
+$breakpoint-3: 1200px;
+$breakpoint-4: 1000px;
+$breakpoint-5: 800px;
+$breakpoint-6: 600px;
+$breakpoint-7: 400px;
+$breakpoint-8: 350px;
+
+// Breakpoints for height
+$breakpoint-height-1: 800px;

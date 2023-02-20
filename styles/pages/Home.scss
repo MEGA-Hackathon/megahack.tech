@@ -4,6 +4,7 @@
     flex-flow: column;
     align-items: center;
     text-align: center;
+    padding: 0px 25px;
     padding-top: 150px;
 
     h1 {
@@ -15,16 +16,15 @@
         line-height: 88px;
         max-width: 715px;
     }
-
-    .home-main-description {
-        font-family: $poppins;
-        font-size: 17px;
-        font-weight: 500;
-        line-height: 34px;
-        color: $medium-gray;
-        margin-top: 30px;
-        max-width: 800px;
-    }
+}
+.home-main-description {
+    font-family: $poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 34px;
+    color: $medium-gray;
+    margin-top: 30px;
+    max-width: 800px;
 }
 .home-main-subheader {
     display: flex;
@@ -46,4 +46,154 @@
 .home-sponsor-scroll-align {
     position: relative;
     margin-top: 170px;
+}
+
+.home-about {
+    @include grid-layout;
+    margin-top: 450px;
+}
+
+.home-participation {
+    position: relative;
+}
+
+.home-schedule-image {
+    margin-top: 125px;
+}
+
+.home-events-wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 125px;
+    gap: 70px 80px;
+}
+
+.home-faq-main {
+    display: flex;
+    gap: 35px;
+    margin-top: 100px;
+}
+.home-faq-wrapper {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+
+.home-team-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 115px;
+    gap: 80px;
+    padding: 0px 40px;
+}
+
+$grid-gap: 35px;
+
+.home-gallery-container {
+    display: flex;
+    gap: $grid-gap;
+}
+
+.home-gallery-wrapper {
+    display: flex;
+    flex-flow: column;
+    gap: $grid-gap;
+    margin-top: 100px;
+    width: 245px;
+
+    img {
+        border-radius: 15px;
+    }
+}
+
+@media screen and (max-width: $breakpoint-4) {
+    .home-main {
+        padding: 0px 25px;
+        padding-top: 140px;
+
+        h1 {
+            font-size: 55px;
+            line-height: 60px;
+            max-width: 600px;
+        }
+    }
+    .home-main-description {
+        max-width: 700px;
+    }
+    .home-gallery-wrapper {
+        width: 200px;
+    }
+}
+@media screen and (max-width: $breakpoint-5) {
+    .home-gallery-container {
+        gap: 20px;
+    }
+    .home-gallery-wrapper {
+        gap: 20px;
+        width: 160px;
+    }
+}
+@media screen and (max-width: $breakpoint-6) {
+    .home-schedule-image {
+        width: 300px;
+    }
+    .home-faq-main {
+        flex-flow: column;
+        gap: 25px;
+    }
+    .home-team-wrapper {
+        gap: 50px;
+    }
+    .home-main {
+        padding: 0px 15px;
+        padding-top: 150px;
+        h1 {
+            font-size: 45px;
+            line-height: 50px;
+            max-width: 500px;
+        }
+    }
+    .home-main-description {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .home-gallery-wrapper {
+        width: 110px;
+    }
+}
+@media screen and (max-width: $breakpoint-7) {
+    .home-schedule-image {
+        width: 270px;
+    }
+    .home-gallery-container {
+        flex-flow: column;
+    }
+    .home-gallery-wrapper {
+        width: 180px;
+
+        &:not(:nth-child(1)) {
+            margin: 0px;
+        }
+    }
+    .home-main h1 {
+        font-size: 35px;
+        line-height: 45px;
+        max-width: 450px;
+    }
+    .home-main-description {
+        font-size: 14px;
+    }
+    .home-team-wrapper {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-height: $breakpoint-height-1) {
+    .home-main {
+        padding-top: 80px;
+    }
 }
