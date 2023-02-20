@@ -6,3 +6,9 @@
     left: 0;
     top: 0;
 }
+
+@media screen and (max-width: $breakpoint-6) {
+    .sponsor-scroll {
+        gap: 45px;
+    }
+} 

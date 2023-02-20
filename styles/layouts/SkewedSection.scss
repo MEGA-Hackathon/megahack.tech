@@ -18,9 +18,22 @@
 @media screen and (max-width: $breakpoint-3) {
     .skewed-section {
         margin-top: 185px;
+        margin-bottom: 185px;
     }
     .skewed-section-content-padding {
         padding-top: 190px;
         padding-bottom: 190px;
+    }
+}
+
+@media screen and (max-width: $breakpoint-6) {
+    .skewed-section-content-padding {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .skewed-section {
+        margin-top: 150px;
+        margin-bottom: 150px;
     }
 }

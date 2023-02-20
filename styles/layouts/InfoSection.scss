@@ -2,3 +2,9 @@
     margin-top: 115px;
     display: flex;
 }
+
+@media screen and (max-width: $breakpoint-5) {
+    .info-section {
+        flex-flow: column;
+    }
+}

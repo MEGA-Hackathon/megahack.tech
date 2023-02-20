@@ -2,12 +2,5 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    margin-top: 200px;
-}
-
-
-@media screen and (max-width: $breakpoint-3) {
-    .home-white-section {
-        margin-top: 180px;
-    }
+    padding: 0px 25px;
 }

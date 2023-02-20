@@ -56,10 +56,17 @@ body * {
 body {
 	overflow-x: hidden;
 	overflow-anchor: none;
+	height: 100vh;
 }
 
 html {
 	scroll-behavior: smooth;
 	overflow-x: hidden;
 	overflow-y: overlay;
+}
+
+
+::selection {
+	color: $white;
+	background-color: $main;
 }

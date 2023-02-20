@@ -55,9 +55,32 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding: 0px;
+    padding: 0px !important;
 }
 
 .header-format-header-centered {
     max-width: 700px;
+}
+
+@media screen and (max-width: $breakpoint-6) {
+    .header-format-header {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .header-format-description {
+        font-size: 14px;
+    }
+    .header-format {
+        padding-left: 15px;
+    }
+}
+@media screen and (max-width: $breakpoint-7) {
+    .header-format-description {
+        font-size: 13px;
+        line-height: 26px;
+    }
+    .header-format-header {
+        font-size: 25px;
+        line-height: 35px;
+    }
 }

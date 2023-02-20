@@ -25,3 +25,10 @@
     font-size: 13px;
     color: $light-gray;
 }
+
+@media screen and (max-width: $breakpoint-6) {
+    .team-member-image {
+        width: 55px;
+        height: 55px;
+    }
+}
