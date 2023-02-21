@@ -19,7 +19,7 @@ const Nav = () => {
 
 
     if (typeof window !== "undefined") {
-        isMenuOpen ? document.body.style.overflow = "hidden" : document.body.style.overflow = "initial"
+        isMenuOpen ? document.body.style.overflowY = "hidden" : document.body.style.overflowY = "initial"
     }
 
 
@@ -47,8 +47,8 @@ const Nav = () => {
             <div className={isMenuOpen ? "nav-dropdown nav-dropdown-open" : "nav-dropdown"}>
                 <ul className="nav-dropdown-content">
                     <li onClick={changeMenu}><Link href="/#sponsors" scroll={false}>Sponsors</Link></li>
-                    <li onClick={changeMenu}><Link href="/#sponsors" scroll={false}>Events</Link></li>
-                    <li onClick={changeMenu}><Link href="/#sponsors" scroll={false}>Contact</Link></li>
+                    <li onClick={changeMenu}><Link href="/#events" scroll={false}>Events</Link></li>
+                    <li onClick={changeMenu}><Link href="/#schedule" scroll={false}>Schedule</Link></li>
                 </ul>
                 <BigButton 
                     text="Join Now"
