@@ -54,9 +54,9 @@ body * {
 }
 
 body {
+	position: relative;
 	overflow-x: hidden;
 	overflow-anchor: none;
-	height: 100vh;
 }
 
 html {

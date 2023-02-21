@@ -93,7 +93,7 @@ const HomeMain = () => {
     return (
         <main>
             <section className="home-main">
-                <div className="home-main-subheader">Introduction</div>
+                <div className="home-main-subheader">Our Mission</div>
                 <h1>Empowering a Sustainable Future</h1>
                 <p className="home-main-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis felis quis erat consectetur, faucibus venenatis dolor mollis. Duis felis nisl, lobortis vitae erat semper, congue sagittis tellus felis nisl.</p>
                 <div className="home-button-align">
