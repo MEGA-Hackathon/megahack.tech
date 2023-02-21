@@ -24,7 +24,7 @@ const SponsorScroll = () => {
         changeSponsorElements(
             sponsors.map((sponsor, index) => {
                 return (
-                    <img src={sponsor.src} key={index} />
+                    <img src={sponsor.src} key={index} alt={`Sponsor ${index}`}/>
                 )
             })
         )
