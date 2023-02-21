@@ -20,6 +20,7 @@ const Nav = () => {
 
     if (typeof window !== "undefined") {
         isMenuOpen ? document.body.style.overflowY = "hidden" : document.body.style.overflowY = "initial"
+        isMenuOpen ? document.body.style.height = "100vh" : document.body.style.height = "initial"
     }
 
 
