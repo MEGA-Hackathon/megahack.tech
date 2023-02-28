@@ -22,7 +22,7 @@ import { useState, useEffect } from "react"
 // Data
 import faqData from "../../utils/data/faq.json"
 import teamData from "../../utils/data/team.json"
-import imageData from "../../utils/data/images.json"
+import imageData from "../../utils/data/gallery.json"
 
 
 const HomeMain = () => {
@@ -95,7 +95,7 @@ const HomeMain = () => {
             <section className="home-main">
                 <div className="home-main-subheader">Our Mission</div>
                 <h1>Empowering a Sustainable Future</h1>
-                <p className="home-main-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis felis quis erat consectetur, faucibus venenatis dolor mollis. Duis felis nisl, lobortis vitae erat semper, congue sagittis tellus felis nisl.</p>
+                <p className="home-main-description">Join MEGA&apos;s community of future innovators solving the UN&apos;s 17 development goals. Join the MEGA Hackathon which last year, had 200 attendees from 20 countries, 40+ NGO&apos;s and Partners, and awards worth 50k+</p>
                 <div className="home-button-align">
                     <BigButton 
                         text="Join Now" 
@@ -111,7 +111,7 @@ const HomeMain = () => {
             <section className="home-about">
                 <HeaderFormat 
                     subheader="About Us"
-                    header="A Mix of All the Best Hackathons!"
+                    header="A Driven Community Solving Sustainability"
                     headerLevel={2}
                     theme="light"
                 />
@@ -119,22 +119,22 @@ const HomeMain = () => {
                     <InfoSectionCard 
                         theme="dark" 
                         number={1}
-                        header="When is Megahack happening?"
-                        description="At the core of our league is a community of innovators and problem solvers working passionate about creating solutions for the UN's 17 sustainability goals."
+                        header="A Motivated, Driven Community"
+                        description="At the core of MEGA is an amazing community of innovators and problem solvers working passionately about creating solutions for the UN's 17 sustainability goals."
                         learnMoreLink="https://mega-hack-2022-spring.devpost.com/"
                     />
                     <InfoSectionCard 
                         theme="dark" 
                         number={2}
-                        header="When is Megahack happening?"
-                        description="At the core of our league is a community of innovators and problem solvers working passionate about creating solutions for the UN's 17 sustainability goals."
+                        header="Knowledge Network & Connections"
+                        description="MEGA is backed by a coalition of NGO's, entreprenuers, and tech companies able to provide decades of experiance, guidance, and advice to our members."
                         learnMoreLink="https://mega-hack-2022-spring.devpost.com/"
                     />
                     <InfoSectionCard 
                         theme="dark" 
                         number={3}
-                        header="When is Megahack happening?"
-                        description="At the core of our league is a community of innovators and problem solvers working passionate about creating solutions for the UN's 17 sustainability goals."
+                        header='The Truly "MEGA" Hackathon'
+                        description="Our MEGA Hackathon had 200+ attendees from 20+ countries collaborated with 40+ NGOs and Partners who donated over 10k USD in funding, awards, sponsorships, and internships."
                         learnMoreLink="https://mega-hack-2022-spring.devpost.com/"
                     />
                 </InfoSection>
@@ -144,7 +144,6 @@ const HomeMain = () => {
                     <HeaderFormat 
                         subheader="Participation"
                         header="Why You Should Participate in Megahack 2023!"
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et aliquet nunc, ut efficitur erat. Fusce elementum, tellus sed fringilla sagittis, massa metus condimentum ligula, sed mattis sapien nunc sed mi."
                         headerLevel={2}
                         theme="dark"
                         buttonText="Join Now"
@@ -153,22 +152,22 @@ const HomeMain = () => {
                         <InfoSectionCard 
                             theme="light" 
                             number={1}
-                            header="When is Megahack happening?"
-                            description="At the core of our league is a community of innovators and problem solvers working passionate about creating solutions for the UN's 17 sustainability goals."
+                            header="Collaborate with like-minded individuals"
+                            description="Collaborate with talented individuals from around the world passionate about creating solutions for the UN's 17 sustainability goals."
                             learnMoreLink="https://mega-hack-2022-spring.devpost.com/"
                         />
                         <InfoSectionCard 
                             theme="light" 
                             number={2}
-                            header="When is Megahack happening?"
-                            description="At the core of our league is a community of innovators and problem solvers working passionate about creating solutions for the UN's 17 sustainability goals."
+                            header="Win funding, awards and internships"
+                            description="Last year, Megahack had awards worth 50K+ USD. This year, we are looking to expand our prizes and awards to help you take your project to the next level."
                             learnMoreLink="https://mega-hack-2022-spring.devpost.com/"
                         />
                         <InfoSectionCard 
                             theme="light" 
                             number={3}
-                            header="When is Megahack happening?"
-                            description="At the core of our league is a community of innovators and problem solvers working passionate about creating solutions for the UN's 17 sustainability goals."
+                            header="Grow your coding skills and capabilities"
+                            description="Megahack is a great oppurtunity to earn new skills, learn from mentors and professionals, build your portfolio and even help you become more confident!"
                             learnMoreLink="https://mega-hack-2022-spring.devpost.com/"
                         />
                     </InfoSection>
@@ -202,13 +201,13 @@ const HomeMain = () => {
                     <InfoSectionCard 
                         theme="light" 
                         number={2}
-                        header="When is Megahack happening?"
+                        header="Where is Megahack going to be?"
                         description="At the core of our league is a community of innovators and problem solvers working passionate about creating solutions for the UN's 17 sustainability goals."
                     />
                     <InfoSectionCard 
                         theme="light" 
                         number={3}
-                        header="When is Megahack happening?"
+                        header="Who can attend the hackathon?"
                         description="At the core of our league is a community of innovators and problem solvers working passionate about creating solutions for the UN's 17 sustainability goals."
                     />
                 </InfoSection>
@@ -224,30 +223,21 @@ const HomeMain = () => {
                 />
                 <div className="home-events-wrapper">
                     <EventCard 
-                        image="https://images.unsplash.com/photo-1503149779833-1de50ebe5f8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
-                        title="Digital Storytelling for Good"
-                        date="Jan 20, 2023"
-                        category="Design"
+                        image="https://images.unsplash.com/photo-1655720828018-edd2daec9349?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
+                        title="Digital Storytelling using AI"
+                        date="Feburary - April"
+                        category="AI/ML"
                         style="Workshop"
                         description="MEGA is teaming up with Columbia PHD students and Professors at Love and Future to educate the youth on the importance of Digital Storytelling"
                         learnMoreLink="https://mega-hack-2022-spring.devpost.com/"
                     />
                     <EventCard 
-                        image="https://images.unsplash.com/photo-1541417904950-b855846fe074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1141&q=80"
-                        title="Digital Storytelling for Good"
-                        date="Jan 20, 2023"
-                        category="Design"
-                        style="Workshop"
-                        description="MEGA is teaming up with Columbia PHD students and Professors at Love and Future to educate the youth on the importance of Digital Storytelling"
-                        learnMoreLink="https://mega-hack-2022-spring.devpost.com/"
-                    />
-                    <EventCard 
-                        image="https://plus.unsplash.com/premium_photo-1675039871449-62f86fb78a70?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
-                        title="Digital Storytelling for Good"
-                        date="Jan 20, 2023"
-                        category="Design"
-                        style="Workshop"
-                        description="MEGA is teaming up with Columbia PHD students and Professors at Love and Future to educate the youth on the importance of Digital Storytelling"
+                        image="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
+                        title="The Mega Hack 2023"
+                        date="April 7th; 8th - 9th"
+                        category="Programming"
+                        style="Hackathon"
+                        description="Like last year, MEGA Hackathon will host another Hackathon event in 2023 to address real-world problems."
                         learnMoreLink="https://mega-hack-2022-spring.devpost.com/"
                     />
                 </div>

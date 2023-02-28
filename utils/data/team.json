@@ -1,77 +1,72 @@
 [
     {
-        "name": "Kai Pereira",
-        "role": "Development",
-        "image": "https://imgs.search.brave.com/fsTbY06KxduJFbqTz3b-4fm-f7gbd9YKDOO2BESgtNw/rs:fit:800:600:1/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzcyOTQ4/L3NjcmVlbnNob3Rz/LzE2MzExMjcvY2Vs/bDMxMS5wbmc"
+        "name": "Jason Xu",
+        "role": "Dev Lead",
+        "image": "/team/jason xu.jpg"
+    },
+    {
+        "name": "Beth Portnoy",
+        "role": "Marketing",
+        "image": "/team/beth portnoy.jpeg"
+    },
+    {
+        "name": "Michael Chang",
+        "role": "Social Media Marketer",
+        "image": "/team/michael chang.jpeg"
+    },
+    {
+        "name": "Kyna Tyagi",
+        "role": "Partnerships Team",
+        "image": "/team/kyna tyagi.JPG"
+    },
+    {
+        "name": "Cheng Hua",
+        "role": "Outreach",
+        "image": "/team/cheng hua.jpg"
+    },
+    {
+        "name": "Karunya Agarwal",
+        "role": "Logistics",
+        "image": "/team/karunya agarwal.jpeg"
+    },
+    {
+        "name": "Lea Ping",
+        "role": "Outreach",
+        "image": "/team/lea ping.jpeg"
+    },
+    {
+        "name": "Su Yeon (Sally) Lee",
+        "role": "Logistics",
+        "image": "/team/su yeon lee.jpg"
+    },
+    {
+        "name": "Promit Mukhopadhyay",
+        "role": "Marketing",
+        "image": "/team/promit mukhopadhyay.jpeg"
+    },
+    {
+        "name": "Agni",
+        "role": "Co-Founder, President",
+        "image": "/team/agni.jpg"
+    },
+    {
+        "name": "Kenneth W.",
+        "role": "Developer",
+        "image": "/team/kenneth w.jpg"
+    },
+    {
+        "name": "Max Xiong",
+        "role": "Logistics Lead",
+        "image": "/team/max xiong.jpeg"
+    },
+    {
+        "name": "Chul Lee",
+        "role": "Marketing",
+        "image": "/team/chul lee.jpeg"
     },
     {
         "name": "Kai Pereira",
         "role": "Development",
-        "image": "https://imgs.search.brave.com/fsTbY06KxduJFbqTz3b-4fm-f7gbd9YKDOO2BESgtNw/rs:fit:800:600:1/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzcyOTQ4/L3NjcmVlbnNob3Rz/LzE2MzExMjcvY2Vs/bDMxMS5wbmc"
-    },
-    {
-        "name": "Kai Pereira",
-        "role": "Development",
-        "image": "https://imgs.search.brave.com/fsTbY06KxduJFbqTz3b-4fm-f7gbd9YKDOO2BESgtNw/rs:fit:800:600:1/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzcyOTQ4/L3NjcmVlbnNob3Rz/LzE2MzExMjcvY2Vs/bDMxMS5wbmc"
-    },
-    {
-        "name": "Kai Pereira",
-        "role": "Development",
-        "image": "https://imgs.search.brave.com/fsTbY06KxduJFbqTz3b-4fm-f7gbd9YKDOO2BESgtNw/rs:fit:800:600:1/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzcyOTQ4/L3NjcmVlbnNob3Rz/LzE2MzExMjcvY2Vs/bDMxMS5wbmc"
-    },
-    {
-        "name": "Kai Pereira",
-        "role": "Development",
-        "image": "https://imgs.search.brave.com/fsTbY06KxduJFbqTz3b-4fm-f7gbd9YKDOO2BESgtNw/rs:fit:800:600:1/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzcyOTQ4/L3NjcmVlbnNob3Rz/LzE2MzExMjcvY2Vs/bDMxMS5wbmc"
-    },
-    {
-        "name": "Kai Pereira",
-        "role": "Development",
-        "image": "https://imgs.search.brave.com/fsTbY06KxduJFbqTz3b-4fm-f7gbd9YKDOO2BESgtNw/rs:fit:800:600:1/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzcyOTQ4/L3NjcmVlbnNob3Rz/LzE2MzExMjcvY2Vs/bDMxMS5wbmc"
-    },
-    {
-        "name": "Kai Pereira",
-        "role": "Development",
-        "image": "https://imgs.search.brave.com/fsTbY06KxduJFbqTz3b-4fm-f7gbd9YKDOO2BESgtNw/rs:fit:800:600:1/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzcyOTQ4/L3NjcmVlbnNob3Rz/LzE2MzExMjcvY2Vs/bDMxMS5wbmc"
-    },
-    {
-        "name": "Kai Pereira",
-        "role": "Development",
-        "image": "https://imgs.search.brave.com/fsTbY06KxduJFbqTz3b-4fm-f7gbd9YKDOO2BESgtNw/rs:fit:800:600:1/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzcyOTQ4/L3NjcmVlbnNob3Rz/LzE2MzExMjcvY2Vs/bDMxMS5wbmc"
-    },
-    {
-        "name": "Kai Pereira",
-        "role": "Development",
-        "image": "https://imgs.search.brave.com/fsTbY06KxduJFbqTz3b-4fm-f7gbd9YKDOO2BESgtNw/rs:fit:800:600:1/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzcyOTQ4/L3NjcmVlbnNob3Rz/LzE2MzExMjcvY2Vs/bDMxMS5wbmc"
-    },
-    {
-        "name": "Kai Pereira",
-        "role": "Development",
-        "image": "https://imgs.search.brave.com/fsTbY06KxduJFbqTz3b-4fm-f7gbd9YKDOO2BESgtNw/rs:fit:800:600:1/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzcyOTQ4/L3NjcmVlbnNob3Rz/LzE2MzExMjcvY2Vs/bDMxMS5wbmc"
-    },
-    {
-        "name": "Kai Pereira",
-        "role": "Development",
-        "image": "https://imgs.search.brave.com/fsTbY06KxduJFbqTz3b-4fm-f7gbd9YKDOO2BESgtNw/rs:fit:800:600:1/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzcyOTQ4/L3NjcmVlbnNob3Rz/LzE2MzExMjcvY2Vs/bDMxMS5wbmc"
-    },
-    {
-        "name": "Kai Pereira",
-        "role": "Development",
-        "image": "https://imgs.search.brave.com/fsTbY06KxduJFbqTz3b-4fm-f7gbd9YKDOO2BESgtNw/rs:fit:800:600:1/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzcyOTQ4/L3NjcmVlbnNob3Rz/LzE2MzExMjcvY2Vs/bDMxMS5wbmc"
-    },
-    {
-        "name": "Kai Pereira",
-        "role": "Development",
-        "image": "https://imgs.search.brave.com/fsTbY06KxduJFbqTz3b-4fm-f7gbd9YKDOO2BESgtNw/rs:fit:800:600:1/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzcyOTQ4/L3NjcmVlbnNob3Rz/LzE2MzExMjcvY2Vs/bDMxMS5wbmc"
-    },
-    {
-        "name": "Kai Pereira",
-        "role": "Development",
-        "image": "https://imgs.search.brave.com/fsTbY06KxduJFbqTz3b-4fm-f7gbd9YKDOO2BESgtNw/rs:fit:800:600:1/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzcyOTQ4/L3NjcmVlbnNob3Rz/LzE2MzExMjcvY2Vs/bDMxMS5wbmc"
-    },
-    {
-        "name": "Kai Pereira",
-        "role": "Development",
-        "image": "https://imgs.search.brave.com/fsTbY06KxduJFbqTz3b-4fm-f7gbd9YKDOO2BESgtNw/rs:fit:800:600:1/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzcyOTQ4/L3NjcmVlbnNob3Rz/LzE2MzExMjcvY2Vs/bDMxMS5wbmc"
+        "image": "/team/kai pereira.jpg"
     }
 ]
