@@ -15,3 +15,15 @@ Next you need to run the live preview server
 ```
 npm run dev
 ```
+
+## Deployment
+
+```
+npm i
+```
+
+```
+npm run build
+```
+
+ask Jason to upload new build to Hostinger
