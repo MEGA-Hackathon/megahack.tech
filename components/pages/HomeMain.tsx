@@ -149,7 +149,7 @@ const HomeMain = () => {
                 <SkewedSection>
                     <HeaderFormat 
                         subheader="Why you should"
-                        header="Participate in Megahack 2023!"
+                        header="Participate in MEGA Hackathon 2023!"
                         headerLevel={2}
                         theme="dark"
                         buttonText="Pre-Register"
@@ -179,53 +179,6 @@ const HomeMain = () => {
                     </InfoSection>
                 </SkewedSection>
             </section>
-            <HomeWhiteSection id="schedule">
-                <HeaderFormat 
-                    subheader="Schedule"
-                    header="MEGAHack 2023 Schedule"
-                    description="TBA - Stay Tuned :). Hackathon dates for 2023 are will be April 14-16, 2022. You will be amongst the first to recieve event updates if you pre-register!"
-                    headerLevel={2}
-                    theme="light"
-                    centered={true}
-                />
-                <div className="home-button-align">
-                    <BigButton 
-                        text="Pre-Register" 
-                        arrow={true} 
-                        href="https://airtable.com/embed/shrumYvaiK4au1KQS?backgroundColor=black" 
-                        newTab={true}
-                    />
-                </div>
-                {/* <img src="/other/Megahack Schedule.svg" alt="schedule" className="home-schedule-image" /> */}
-            </HomeWhiteSection>
-            <SkewedSection>
-                <HeaderFormat 
-                    subheader="Information on"
-                    header="When and Where is Megahack 2023"
-                    headerLevel={2}
-                    theme="dark"
-                />
-                <InfoSection>
-                    <InfoSectionCard 
-                        theme="light" 
-                        number={1}
-                        header="When is MEGA Hackathon 2023 happening?"
-                        description="MEGA Hackathon 2023 is from April 14-16, 2022. "
-                    />
-                    <InfoSectionCard 
-                        theme="light" 
-                        number={2}
-                        header="Where is MEGA Hackathon 2023?"
-                        description="Feel free to attend virtually, but if you are in New Jersey we encourage you to attend in person at a venue (TBA)!"
-                    />
-                    <InfoSectionCard 
-                        theme="light" 
-                        number={3}
-                        header="Who can attend the hackathon?"
-                        description="Everyone! There is no cost to attend, and we welcome all skill levels. Workshops are also offered before the Hackathon!"
-                    />
-                </InfoSection>
-            </SkewedSection>
             <HomeWhiteSection id="events">
                 <HeaderFormat 
                     subheader="Events"
@@ -256,11 +209,69 @@ const HomeMain = () => {
                         learnMoreLink="https://airtable.com/embed/shrumYvaiK4au1KQS?backgroundColor=black"
                         learnMoreHeader="Pre-Register"
                     />
+                    <EventCard 
+                        image="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
+                        title="MEGA Hackathon 2022"
+                        date="April 1st - 3rd"
+                        category="Completed"
+                        style="Hackathon"
+                        description="Our first annual MEGA Hackathon. It was a blast! Winners took home internships and $50k+ of prizes."
+                        learnMoreLink="https://mega-hack-2022-spring.devpost.com/"
+                        learnMoreHeader="Learn More"
+                    />
                 </div>
             </HomeWhiteSection>
             <SkewedSection>
                 <HeaderFormat 
-                    subheader="MEGAHack 2023"
+                    subheader="Information on"
+                    header="When and Where is MEGA Hackathon 2023"
+                    headerLevel={2}
+                    theme="dark"
+                />
+                <InfoSection>
+                    <InfoSectionCard 
+                        theme="light" 
+                        number={1}
+                        header="When is MEGA Hackathon 2023 happening?"
+                        description="MEGA Hackathon 2023 is from April 14-16, 2022. "
+                    />
+                    <InfoSectionCard 
+                        theme="light" 
+                        number={2}
+                        header="Where is MEGA Hackathon 2023?"
+                        description="Feel free to attend virtually, but if you are in New Jersey we encourage you to attend in person at a venue (TBA)!"
+                    />
+                    <InfoSectionCard 
+                        theme="light" 
+                        number={3}
+                        header="Who can attend the hackathon?"
+                        description="Everyone! There is no cost to attend, and we welcome all skill levels. Workshops are also offered before the Hackathon!"
+                    />
+                </InfoSection>
+            </SkewedSection>
+            
+            <HomeWhiteSection id="schedule">
+                <HeaderFormat 
+                    subheader="Schedule"
+                    header="MEGA Hackathon 2023 Schedule"
+                    description="TBA - Stay Tuned :). Hackathon dates for 2023 are will be April 14-16, 2022. You will be amongst the first to recieve event updates if you pre-register!"
+                    headerLevel={2}
+                    theme="light"
+                    centered={true}
+                />
+                <div className="home-button-align">
+                    <BigButton 
+                        text="Pre-Register" 
+                        arrow={true} 
+                        href="https://airtable.com/embed/shrumYvaiK4au1KQS?backgroundColor=black" 
+                        newTab={true}
+                    />
+                </div>
+                {/* <img src="/other/Megahack Schedule.svg" alt="schedule" className="home-schedule-image" /> */}
+            </HomeWhiteSection>
+            <SkewedSection>
+                <HeaderFormat 
+                    subheader="MEGA Hackathon 2023"
                     header="Prizes And Awards"
                     theme="dark"
                     headerLevel={2}

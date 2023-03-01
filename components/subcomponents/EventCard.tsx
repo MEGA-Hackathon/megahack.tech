@@ -29,7 +29,7 @@ const EventCard = ({
                         <p className="event-card-style">{style}</p>
                         <p className="event-card-date">{date}</p>
                     </div>
-                    <p className="event-card-category">{category}</p>
+                    <p className="event-card-category" style={{color: (category === "Completed" ? "#aeae" : "#68666F")}}>{category}</p>
                 </div>
             </div>
             <div className="event-card-content">
