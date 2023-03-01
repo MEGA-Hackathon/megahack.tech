@@ -210,7 +210,7 @@ const HomeMain = () => {
                         learnMoreHeader="Pre-Register"
                     />
                     <EventCard 
-                        image="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
+                        image="https://images-ext-2.discordapp.net/external/7aSNtvp2uTD-TslaGZH-LQN7QBm-C4Op6DOfF3oghig/%3Fraw%3Dtrue/https/github.com/MEGA-Hackathon/website-current/blob/main/src/assets/top.png?width=1143&height=857"
                         title="MEGA Hackathon 2022"
                         date="April 1st - 3rd"
                         category="Completed"
@@ -280,10 +280,10 @@ const HomeMain = () => {
                     <InfoSectionCard 
                         theme="light" 
                         number={1}
-                        header="1st Place"
-                        description="$300 Cash Prize"
+                        header="TBD"
+                        description="Pre-Register to be the first to know!"
                     />
-                    <InfoSectionCard 
+                    {/* <InfoSectionCard 
                         theme="light" 
                         number={2}
                         header="2nd Place"
@@ -294,7 +294,7 @@ const HomeMain = () => {
                         number={3}
                         header="3rd Place"
                         description="$100 Cash Prize"
-                    />
+                    /> */}
                 </InfoSection>
             </SkewedSection>
             <HomeWhiteSection>
