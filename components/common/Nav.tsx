@@ -34,7 +34,7 @@ const Nav = () => {
                     <li><Link href="/#schedule" scroll={false}>Schedule</Link></li>
                 </ul>
                 <Button 
-                    text="Join Now" 
+                    text="Pre-Register" 
                     href="https://mega-hack-2022-spring.devpost.com/" 
                     newTab={true}
                 />
@@ -52,7 +52,7 @@ const Nav = () => {
                     <li onClick={changeMenu}><Link href="/#schedule" scroll={false}>Schedule</Link></li>
                 </ul>
                 <BigButton 
-                    text="Join Now"
+                    text="Pre-Register"
                     href="https://mega-hack-2022-spring.devpost.com/"
                     newTab={true}
                     className="nav-dropdown-button"

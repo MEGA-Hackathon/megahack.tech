@@ -23,7 +23,7 @@ const FaqCard = ({
                 <p>+</p>
             </div>
             <div className={`faq-card-answer-container ${isOpen && "faq-card-answer-container-open"}`}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat magna odio, id scelerisque odio eleifend id. Integer eu sagittis purus.
+                {answer}
             </div>
         </div>
     )

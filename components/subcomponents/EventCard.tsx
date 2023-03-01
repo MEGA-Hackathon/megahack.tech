@@ -7,6 +7,7 @@ type EventCardProps = {
     title: String,
     description: String,
     learnMoreLink: String,
+    learnMoreHeader: String,
     style: String
 }
 
@@ -17,6 +18,7 @@ const EventCard = ({
     title,
     description,
     learnMoreLink,
+    learnMoreHeader,
     style
 }: EventCardProps) => {
     return (
@@ -33,7 +35,7 @@ const EventCard = ({
             <div className="event-card-content">
                 <p className="event-card-header">{title}</p>
                 <p className="event-card-description">{description}</p>
-                <LearnMoreButton learnMoreLink="https://mega-hack-2022-spring.devpost.com/" className="event-card-button"/>
+                <LearnMoreButton headerOverride={learnMoreHeader} learnMoreLink={learnMoreLink} className="event-card-button"/>
             </div>
         </div>
     )

@@ -59,7 +59,8 @@ const HeaderFormat = ({
             { buttonText &&
             <Button 
                 text={buttonText}
-                href="https://mega-hack-2022-spring.devpost.com/"
+                href="https://airtable.com/embed/shrumYvaiK4au1KQS?backgroundColor=black"
+                newTab={true}
                 className="header-format-button"
             />
             }
