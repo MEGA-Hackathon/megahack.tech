@@ -233,7 +233,7 @@ const HomeMain = () => {
                         theme="light" 
                         number={1}
                         header="When is MEGA Hackathon 2023 happening?"
-                        description="MEGA Hackathon 2023 is from April 14-16, 2022. "
+                        description="MEGA Hackathon 2023 is from April 14-16, 2023. "
                     />
                     <InfoSectionCard 
                         theme="light" 
@@ -254,7 +254,7 @@ const HomeMain = () => {
                 <HeaderFormat 
                     subheader="Schedule"
                     header="MEGA Hackathon 2023 Schedule"
-                    description="TBA - Stay Tuned :). Hackathon dates for 2023 are will be April 14-16, 2022. You will be amongst the first to recieve event updates if you pre-register!"
+                    description="TBA - Stay Tuned :). Hackathon dates for 2023 are will be April 14-16, 2023. You will be amongst the first to recieve event updates if you pre-register!"
                     headerLevel={2}
                     theme="light"
                     centered={true}
