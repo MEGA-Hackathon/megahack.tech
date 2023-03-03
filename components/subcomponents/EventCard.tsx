@@ -6,8 +6,8 @@ type EventCardProps = {
     date: String,
     title: String,
     description: String,
-    learnMoreLink: String,
-    learnMoreHeader: String,
+    learnMoreLink?: String,
+    learnMoreHeader?: String,
     style: String
 }
 
@@ -17,7 +17,7 @@ const EventCard = ({
     date,
     title,
     description,
-    learnMoreLink,
+    learnMoreLink = "",
     learnMoreHeader,
     style
 }: EventCardProps) => {
@@ -35,7 +35,7 @@ const EventCard = ({
             <div className="event-card-content">
                 <p className="event-card-header">{title}</p>
                 <p className="event-card-description">{description}</p>
-                <LearnMoreButton headerOverride={learnMoreHeader} learnMoreLink={learnMoreLink} className="event-card-button"/>
+                {learnMoreLink && <LearnMoreButton headerOverride={learnMoreHeader} learnMoreLink={learnMoreLink} className="event-card-button"/>}
             </div>
         </div>
     )

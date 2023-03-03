@@ -190,16 +190,6 @@ const HomeMain = () => {
                 />
                 <div className="home-events-wrapper">
                     <EventCard 
-                        image="https://images.unsplash.com/photo-1655720828018-edd2daec9349?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
-                        title="Digital Storytelling using AI"
-                        date="Feburary - April"
-                        category="AI/ML"
-                        style="Workshop"
-                        description="MEGA is teaming up with Columbia PHD students and Professors at Love and Future to educate the youth on the importance of Digital Storytelling"
-                        learnMoreLink="https://airtable.com/embed/shrdwnRcqXJgSz8AA?backgroundColor=black"
-                        learnMoreHeader="Sign Up"
-                    />
-                    <EventCard 
                         image="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
                         title="MEGA Hackathon 2023"
                         date="April 14th; 15th - 16th"
@@ -208,6 +198,16 @@ const HomeMain = () => {
                         description="Like last year, MEGA Hackathon will host another Hackathon event in 2023 themed on real-world problems."
                         learnMoreLink="https://airtable.com/embed/shrumYvaiK4au1KQS?backgroundColor=black"
                         learnMoreHeader="Pre-Register"
+                    />
+                    <EventCard 
+                        image="https://images.unsplash.com/photo-1655720828018-edd2daec9349?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
+                        title="Digital Storytelling using AI"
+                        date="Feburary - April (Registrations Closed)"
+                        category="AI/ML"
+                        style="Workshop"
+                        description="MEGA is teaming up with Columbia PHD students and Professors at Love and Future to educate the youth on the importance of Digital Storytelling"
+                        // learnMoreLink="https://airtable.com/embed/shrdwnRcqXJgSz8AA?backgroundColor=black"
+                        // learnMoreHeader="Sign Ups Closed"
                     />
                     <EventCard 
                         image="https://images-ext-2.discordapp.net/external/7aSNtvp2uTD-TslaGZH-LQN7QBm-C4Op6DOfF3oghig/%3Fraw%3Dtrue/https/github.com/MEGA-Hackathon/website-current/blob/main/src/assets/top.png?width=1143&height=857"
