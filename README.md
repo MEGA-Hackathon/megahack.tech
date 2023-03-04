@@ -26,4 +26,4 @@ npm i
 npm run build
 ```
 
-ask Jason to upload new build to Hostinger
+ask Jason to upload new build to Hostinger 
