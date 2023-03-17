@@ -100,13 +100,13 @@ const HomeMain = () => {
                 <p className="home-main-description">
                 MEGA is a coalition of high-school and college students who host a hybrid hackathon catered to the United Nations&#39; seventeen sustainable development goals.
                 Infusing STEM and UN SDGs, the annual MEGA Hackathon raises awareness for global welfare while instilling passion in computer science students. 
-                <br/><br/>Pre-register today to stay updated on the latest news and announcements for MEGA Hackathon 2023.
+                <br/><br/>Register today to stay updated on the latest news and announcements for MEGA Hackathon 2023.
                 </p>
                 <div className="home-button-align">
                     <BigButton 
-                        text="Pre-Register" 
+                        text="Register" 
                         arrow={true} 
-                        href="https://airtable.com/embed/shrumYvaiK4au1KQS?backgroundColor=black" 
+                        href="https://airtable.com/shr6YRvkQ9geLsnXD" 
                         newTab={true}
                     />
                 </div>
@@ -152,7 +152,7 @@ const HomeMain = () => {
                         header="Participate in MEGA Hackathon 2023!"
                         headerLevel={2}
                         theme="dark"
-                        buttonText="Pre-Register"
+                        buttonText="Register"
                     />
                     <InfoSection>
                         <InfoSectionCard 
@@ -196,8 +196,8 @@ const HomeMain = () => {
                         category="Competetive"
                         style="Hackathon"
                         description="Like last year, MEGA Hackathon will host another Hackathon event in 2023 themed on real-world problems."
-                        learnMoreLink="https://airtable.com/embed/shrumYvaiK4au1KQS?backgroundColor=black"
-                        learnMoreHeader="Pre-Register"
+                        learnMoreLink="https://airtable.com/shr6YRvkQ9geLsnXD"
+                        learnMoreHeader="Register"
                     />
                     <EventCard 
                         image="https://images.unsplash.com/photo-1655720828018-edd2daec9349?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
@@ -254,16 +254,16 @@ const HomeMain = () => {
                 <HeaderFormat 
                     subheader="Schedule"
                     header="MEGA Hackathon 2023 Schedule"
-                    description="TBA - Stay Tuned :). Hackathon dates for 2023 are will be April 14-16, 2023. You will be amongst the first to recieve event updates if you pre-register!"
+                    description="TBA - Stay Tuned :). Hackathon dates for 2023 are will be April 14-16, 2023. You will be amongst the first to recieve event updates if you Register!"
                     headerLevel={2}
                     theme="light"
                     centered={true}
                 />
                 <div className="home-button-align">
                     <BigButton 
-                        text="Pre-Register" 
+                        text="Register" 
                         arrow={true} 
-                        href="https://airtable.com/embed/shrumYvaiK4au1KQS?backgroundColor=black" 
+                        href="https://airtable.com/shr6YRvkQ9geLsnXD" 
                         newTab={true}
                     />
                 </div>
@@ -281,7 +281,7 @@ const HomeMain = () => {
                         theme="light" 
                         number={1}
                         header="TBD"
-                        description="Pre-Register to be the first to know!"
+                        description="Register to be the first to know!"
                     />
                     {/* <InfoSectionCard 
                         theme="light" 

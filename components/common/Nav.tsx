@@ -34,8 +34,8 @@ const Nav = () => {
                     <li><Link href="/#schedule" scroll={false}>Schedule</Link></li>
                 </ul>
                 <Button 
-                    text="Pre-Register" 
-                    href="https://mega-hack-2022-spring.devpost.com/" 
+                    text="Register" 
+                    href="https://airtable.com/shr6YRvkQ9geLsnXD" 
                     newTab={true}
                 />
                 {/* Hamburger menu */}

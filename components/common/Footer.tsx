@@ -9,7 +9,7 @@ const Footer = () => {
                 <HeaderFormat 
                     subheader="Join Now"
                     header="Let's Improve Human Development"
-                    buttonText="Pre-Register"
+                    buttonText="Register"
                     theme="dark"
                     headerLevel={2}
                     centered={true}
