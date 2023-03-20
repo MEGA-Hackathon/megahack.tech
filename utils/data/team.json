@@ -1,8 +1,28 @@
 [
     {
+        "name": "Yuxuan Tian",
+        "role": "Co-Founder",
+        "image": "/team/yuxuan tian.jpg"
+    },
+    {
+        "name": "Agni",
+        "role": "Co-Founder, President",
+        "image": "/team/agni.jpg"
+    },
+    {
         "name": "Jason Xu",
         "role": "Dev Lead",
         "image": "/team/jason xu.jpg"
+    },
+    {
+        "name": "Max Xiong",
+        "role": "Logistics Lead",
+        "image": "/team/max xiong.jpeg"
+    },
+    {
+        "name": "Daniel Achacon",
+        "role": "Marketing Lead",
+        "image": "/team/daniel a.png"
     },
     {
         "name": "Beth Portnoy",
@@ -45,19 +65,9 @@
         "image": "/team/promit mukhopadhyay.jpeg"
     },
     {
-        "name": "Agni",
-        "role": "Co-Founder, President",
-        "image": "/team/agni.jpg"
-    },
-    {
         "name": "Kenneth W.",
         "role": "Developer",
         "image": "/team/kenneth w.jpg"
-    },
-    {
-        "name": "Max Xiong",
-        "role": "Logistics Lead",
-        "image": "/team/max xiong.jpeg"
     },
     {
         "name": "Chul Lee",
@@ -68,15 +78,5 @@
         "name": "Kai Pereira",
         "role": "Development",
         "image": "/team/kai pereira.jpg"
-    },
-    {
-        "name": "Daniel Achacon",
-        "role": "Marketing Lead",
-        "image": "/team/daniel a.png"
-    },
-    {
-        "name": "Yuxuan Tian",
-        "role": "Co-Founder",
-        "image": "/team/yuxuan tian.jpg"
     }
 ]
