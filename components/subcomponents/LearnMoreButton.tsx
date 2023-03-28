@@ -10,7 +10,11 @@ const LearnMoreButton = ({
     headerOverride
 }: LearnMoreButtonProps) => {
     return (
-        <a className={`learn-more-button ${className}`} href={learnMoreLink} target="_blank" rel="noreferrer">
+        <a className={`learn-more-button ${className}`} onClick={() => {
+            if (learnMoreLink) {
+                window.open(learnMoreLink, "_blank")
+            }
+        }} rel="noreferrer">
             <p>{headerOverride ? headerOverride : "Learn More"}</p>
             <i className="fa-solid fa-angle-right"></i>
         </a>

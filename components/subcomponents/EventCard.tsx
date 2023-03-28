@@ -35,7 +35,7 @@ const EventCard = ({
             <div className="event-card-content">
                 <p className="event-card-header">{title}</p>
                 <p className="event-card-description">{description}</p>
-                {learnMoreLink && <LearnMoreButton headerOverride={learnMoreHeader} learnMoreLink={learnMoreLink} className="event-card-button"/>}
+                {(learnMoreLink) && <LearnMoreButton headerOverride={learnMoreHeader} learnMoreLink={learnMoreLink} className="event-card-button"/>}
             </div>
         </div>
     )

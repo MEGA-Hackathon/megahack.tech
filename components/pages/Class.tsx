@@ -17,21 +17,20 @@ import HomeWhiteSection from "../layouts/HomeWhiteSection"
 
 const Class = () => {
 
-    const classes = {
-        "Class 1": "https://www.youtube.com/watch?v=BSCsrFMRjlI",
-        "Class 2": "N/A",
-        "Class 3 (part 1)": "https://www.youtube.com/watch?v=bZJZ0lpJ51Q",
-        "Class 3 (part 2)": "https://www.youtube.com/watch?v=HXxtOYNvw34",
-        "Class 3 (part 3)": "https://www.youtube.com/watch?v=zCviUMNsv38",
-        "Class 4": "https://www.youtube.com/watch?v=aL4Yfu9jGic",
-        "Class 5": "https://www.youtube.com/watch?v=vV1C6u8rSr8", 
-        "Class 6 (Part 1)": "https://www.youtube.com/watch?v=q6dZ38Ti1yo",
-        "Class 6 (Part 2)": "https://www.youtube.com/watch?v=xNOZuaDm-Sg",
-        "Class 6 (Part 3)": "https://www.youtube.com/watch?v=CZrTrDLBL2A",
-        "Class 7": "https://www.youtube.com/watch?v=h2GwpAmmMPg",
-        "Class 8": "https://www.youtube.com/watch?v=oQgV1jkUJ_g",
+    const classes : Map<string, string> = new Map();
 
-    }
+    classes.set("Class 1", "https://www.youtube.com/watch?v=BSCsrFMRjlI");
+    classes.set("Class 2", "N/A");
+    classes.set("Class 3 (part 1)", "https://www.youtube.com/watch?v=bZJZ0lpJ51Q");
+    classes.set("Class 3 (part 2)", "https://www.youtube.com/watch?v=HXxtOYNvw34");
+    classes.set("Class 3 (part 3)", "https://www.youtube.com/watch?v=zCviUMNsv38");
+    classes.set("Class 4", "https://www.youtube.com/watch?v=aL4Yfu9jGic");
+    classes.set("Class 5", "https://www.youtube.com/watch?v=vV1C6u8rSr8");
+    classes.set("Class 6 (Part 1)", "https://www.youtube.com/watch?v=q6dZ38Ti1yo");
+    classes.set("Class 6 (Part 2)", "https://www.youtube.com/watch?v=xNOZuaDm-Sg");
+    classes.set("Class 6 (Part 3)", "https://www.youtube.com/watch?v=CZrTrDLBL2A");
+    classes.set("Class 7", "https://www.youtube.com/watch?v=h2GwpAmmMPg");
+    classes.set("Class 8", "https://www.youtube.com/watch?v=oQgV1jkUJ_g");
 
     return (
         <main>
@@ -59,17 +58,19 @@ const Class = () => {
                     centered={true}
                 />
                 <div className="home-events-wrapper">
-                    {Object.keys(classes).map((key, index) => {
+                    {Object.keys(classes).map((key : string, index : number) => {
+                        const result : string | null | undefined = classes.get(key);
                         return (
                             <EventCard 
-                                image={"https://i.ytimg.com/vi/" + classes[key].replace("https://www.youtube.com/watch?v=", "") + "/hqdefault.jpg"}
+                                key={index}
+                                image={"https://i.ytimg.com/vi/" + result?.replace("https://www.youtube.com/watch?v=", "") + "/hqdefault.jpg"}
                                 title={""}
                                 date=""
                                 category=""
                                 style={key}
                                 description=""
-                                learnMoreLink={classes[key]}
-                                learnMoreHeader={classes[key] == "N/A" ? "N/A" : "Watch"}
+                                learnMoreLink={classes.get(key)}
+                                learnMoreHeader={classes.get(key) == "N/A" ? "N/A" : "Watch"}
                             />
                         )
                     })}
