@@ -10,7 +10,8 @@ export default function Home() {
   return (
     <>
       <Nav />
-      <HomeMain />
+      {/* <HomeMain /> */}
+      <Class />
       <Footer />
     </>
   )

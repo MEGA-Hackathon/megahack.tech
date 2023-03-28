@@ -58,7 +58,7 @@ const Class = () => {
                     centered={true}
                 />
                 <div className="home-events-wrapper">
-                    {Object.keys(classes).map((key : string, index : number) => {
+                    {Array.from(classes.keys()).map((key : string, index : number) => {
                         const result : string | null | undefined = classes.get(key);
                         return (
                             <EventCard 
@@ -70,7 +70,7 @@ const Class = () => {
                                 style={key}
                                 description=""
                                 learnMoreLink={classes.get(key)}
-                                learnMoreHeader={classes.get(key) == "N/A" ? "N/A" : "Watch"}
+                                learnMoreHeader={classes.get(key)}
                             />
                         )
                     })}
