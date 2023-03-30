@@ -13,6 +13,7 @@ import HeaderFormat from "../layouts/HeaderFormat"
 import InfoSection from "../layouts/InfoSection"
 import SkewedSection from "../layouts/SkewedSection"
 import HomeWhiteSection from "../layouts/HomeWhiteSection"
+import DigitalClassCard from "../subcomponents/DigitalClassCard"
 
 
 const Class = () => {
@@ -61,16 +62,11 @@ const Class = () => {
                     {Array.from(classes.keys()).map((key : string, index : number) => {
                         const result : string | null | undefined = classes.get(key);
                         return (
-                            <EventCard 
+                            <DigitalClassCard 
                                 key={index}
-                                image={"https://i.ytimg.com/vi/" + result?.replace("https://www.youtube.com/watch?v=", "") + "/hqdefault.jpg"}
-                                title={""}
-                                date=""
-                                category=""
-                                style={key}
-                                description=""
-                                learnMoreLink={classes.get(key)}
-                                learnMoreHeader={classes.get(key)}
+                                videoLink={result?.replace("https://www.youtube.com/watch?v=", "")}
+                                name={key}
+                                learnMoreLink={result}
                             />
                         )
                     })}
