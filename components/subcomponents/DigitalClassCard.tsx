@@ -27,6 +27,7 @@ const DigitalClassCard = ({
                     fontFamily: "Poppins",
                     color: "#fff",
                     backgroundColor: "rgba(0,0,0,0.5)",
+                    backdropFilter: "blur(10px)",
                     padding: 25,
                 }}>No video for {name}</p>}
             </div>
