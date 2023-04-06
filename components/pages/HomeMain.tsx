@@ -205,7 +205,7 @@ const HomeMain = () => {
                         date="Done"
                         category="AI/ML"
                         style="Workshop"
-                        description="MEGA teamed up with Columbia PHD students and Professors at Love and Future to educate the youth on the importance of Digital Storytelling"
+                        description="MEGA teamed up with Columbia PHD students and Professors at Love and Future to educate the youth on the importance of Digital Storytelling through this transfomative course on AI and its impact in climate."
                         learnMoreHeader="Learn More"
                         learnMoreLink="./digital-storytelling-class-2023"
                     />
@@ -254,20 +254,20 @@ const HomeMain = () => {
                 <HeaderFormat 
                     subheader="Schedule"
                     header="MEGA Hackathon 2023 Schedule"
-                    description="TBA - Stay Tuned :). Hackathon dates for 2023 are will be April 14-16, 2023. You will be amongst the first to recieve event updates if you Register!"
+                    description=""
                     headerLevel={2}
                     theme="light"
                     centered={true}
                 />
-                <div className="home-button-align">
+                {/* <div className="home-button-align">
                     <BigButton 
                         text="Register" 
                         arrow={true} 
                         href="https://airtable.com/shr6YRvkQ9geLsnXD" 
                         newTab={true}
                     />
-                </div>
-                {/* <img src="/other/Megahack Schedule.svg" alt="schedule" className="home-schedule-image" /> */}
+                </div> */}
+                <img src="/other/Megahack Schedule.svg" alt="schedule" className="home-schedule-image" />
             </HomeWhiteSection>
             <SkewedSection>
                 <HeaderFormat 
@@ -280,26 +280,86 @@ const HomeMain = () => {
                     <InfoSectionCard 
                         theme="light" 
                         number={1}
-                        header="TBD"
-                        description="Register to be the first to know!"
+                        header="Grand Winners (3)"
+                        description="3 Projects get Opportunity to Pitch to SEED VC Funds for Investment and Partnership Opportunities of $1000!"
                     />
-                    {/* <InfoSectionCard 
+                    <InfoSectionCard 
                         theme="light" 
                         number={2}
+                        header="1st Place"
+                        description="$300 Cash Prize & $300 Lifetime Taskade Pro"
+                    />
+                    <InfoSectionCard 
+                        theme="light" 
+                        number={3}
                         header="2nd Place"
-                        description="$200 Cash Prize"
+                        description="$200 Cash Prize & $300 Lifetime Taskade Pro"
                     />
                     <InfoSectionCard 
                         theme="light" 
                         number={3}
                         header="3rd Place"
-                        description="$100 Cash Prize"
-                    /> */}
+                        description="$100 Cash Prize & $300 Lifetime Taskade Pro"
+                    />
+                    <InfoSectionCard 
+                        theme="light" 
+                        number={3}
+                        header="Entrepreneurship Award" 
+                        description="HIGHSCHOOLERS ONLY - Fully sponsored opportunity to Pitch project/idea in StartupBrite investor conference & will obtain entry to apply to the inaugural MEGA Entreprenurial Incubator"
+                    />
+                    <InfoSectionCard 
+                        theme="light" 
+                        number={3}
+                        header="Entrepreneurial Fellows Program (100)" 
+                        description="Opportunity to Intern at a startup associated with our partnered accelerator"
+                    />
+                    <InfoSectionCard 
+                        theme="light" 
+                        number={3}
+                        header="Healthcare Category" 
+                        description="Internship prize and opportunity to take application further with Medical organization/Coalition"
+                    />
+                    <InfoSectionCard 
+                        theme="light" 
+                        number={3}
+                        header="Anti-Corruption/Transparency Category" 
+                        description="Supported by the International Transparency Organization Macedonia"
+                    />
+                    <InfoSectionCard 
+                        theme="light" 
+                        number={3}
+                        header="Climate Category" 
+                        description="Further Project Development and Internship with the Love&Future Organization alongside Columbia PHDs"
+                    />
+                    <InfoSectionCard 
+                        theme="light" 
+                        number={3}
+                        header="Robotics/Hardware Category (2)" 
+                        description="$226 Goliath Automation and Robotics: Monster Kit"
+                    />
+                    <InfoSectionCard 
+                        theme="light" 
+                        number={3}
+                        header="Homelessness/Justice Category" 
+                        description="Internship prize and opportunity to take application further with NGOs"
+                    />
+                    <InfoSectionCard 
+                        theme="light" 
+                        number={3}
+                        header=" Hospitality/Restaurant Industry Award" 
+                        description="Internship prize and opportunity to take application further with leading Hotel/Restaurant Chain"
+                    />
+                    <InfoSectionCard 
+                        theme="light" 
+                        number={3}
+                        header="Participation (1,000)" 
+                        description="$10 .xyz domain $50 1 Month Voiceflow Team License $228 1 Year Taskade Pro Account $504 1 Year Axure RP Team Edition $99 Echo3d Premium Account $249 Interview Cake Full Coding Interview Course 25% off the first year of 1Password Families"
+                    />
                 </InfoSection>
             </SkewedSection>
             <HomeWhiteSection>
                 <HeaderFormat 
-                    subheader="FAQ’s"
+                    subheader="FAQ's"
                     header="All the answers to your many questions!"
                     // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et aliquet nunc, ut efficitur erat. Fusce elementum, tellus sed fringilla sagittis, massa metus condimentum ligula, sed mattis sapien nunc sed mi."
                     theme="light"
