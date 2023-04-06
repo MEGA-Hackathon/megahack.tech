@@ -23,6 +23,8 @@ import { useState, useEffect } from "react"
 import faqData from "../../utils/data/faq.json"
 import teamData from "../../utils/data/team.json"
 import imageData from "../../utils/data/gallery.json"
+import PrizeSection from "../layouts/PrizeSection"
+import PrizeSectionCard from "../subcomponents/PrizeSectionCard"
 
 
 const HomeMain = () => {
@@ -276,86 +278,86 @@ const HomeMain = () => {
                     theme="dark"
                     headerLevel={2}
                 />
-                <InfoSection>
-                    <InfoSectionCard 
+                <PrizeSection>
+                    <PrizeSectionCard 
                         theme="light" 
                         number={1}
                         header="Grand Winners (3)"
                         description="3 Projects get Opportunity to Pitch to SEED VC Funds for Investment and Partnership Opportunities of $1000!"
                     />
-                    <InfoSectionCard 
+                    <PrizeSectionCard 
                         theme="light" 
                         number={2}
                         header="1st Place"
                         description="$300 Cash Prize & $300 Lifetime Taskade Pro"
                     />
-                    <InfoSectionCard 
+                    <PrizeSectionCard 
                         theme="light" 
                         number={3}
                         header="2nd Place"
                         description="$200 Cash Prize & $300 Lifetime Taskade Pro"
                     />
-                    <InfoSectionCard 
+                    <PrizeSectionCard 
                         theme="light" 
                         number={3}
                         header="3rd Place"
                         description="$100 Cash Prize & $300 Lifetime Taskade Pro"
                     />
-                    <InfoSectionCard 
+                    <PrizeSectionCard 
                         theme="light" 
                         number={3}
                         header="Entrepreneurship Award" 
                         description="HIGHSCHOOLERS ONLY - Fully sponsored opportunity to Pitch project/idea in StartupBrite investor conference & will obtain entry to apply to the inaugural MEGA Entreprenurial Incubator"
                     />
-                    <InfoSectionCard 
+                    <PrizeSectionCard 
                         theme="light" 
                         number={3}
                         header="Entrepreneurial Fellows Program (100)" 
                         description="Opportunity to Intern at a startup associated with our partnered accelerator"
                     />
-                    <InfoSectionCard 
+                    <PrizeSectionCard 
                         theme="light" 
                         number={3}
                         header="Healthcare Category" 
                         description="Internship prize and opportunity to take application further with Medical organization/Coalition"
                     />
-                    <InfoSectionCard 
+                    <PrizeSectionCard 
                         theme="light" 
                         number={3}
                         header="Anti-Corruption/Transparency Category" 
                         description="Supported by the International Transparency Organization Macedonia"
                     />
-                    <InfoSectionCard 
+                    <PrizeSectionCard 
                         theme="light" 
                         number={3}
                         header="Climate Category" 
                         description="Further Project Development and Internship with the Love&Future Organization alongside Columbia PHDs"
                     />
-                    <InfoSectionCard 
+                    <PrizeSectionCard 
                         theme="light" 
                         number={3}
                         header="Robotics/Hardware Category (2)" 
                         description="$226 Goliath Automation and Robotics: Monster Kit"
                     />
-                    <InfoSectionCard 
+                    <PrizeSectionCard 
                         theme="light" 
                         number={3}
                         header="Homelessness/Justice Category" 
                         description="Internship prize and opportunity to take application further with NGOs"
                     />
-                    <InfoSectionCard 
+                    <PrizeSectionCard 
                         theme="light" 
                         number={3}
                         header=" Hospitality/Restaurant Industry Award" 
                         description="Internship prize and opportunity to take application further with leading Hotel/Restaurant Chain"
                     />
-                    <InfoSectionCard 
+                    <PrizeSectionCard 
                         theme="light" 
                         number={3}
                         header="Participation (1,000)" 
                         description="$10 .xyz domain $50 1 Month Voiceflow Team License $228 1 Year Taskade Pro Account $504 1 Year Axure RP Team Edition $99 Echo3d Premium Account $249 Interview Cake Full Coding Interview Course 25% off the first year of 1Password Families"
                     />
-                </InfoSection>
+                </PrizeSection>
             </SkewedSection>
             <HomeWhiteSection>
                 <HeaderFormat 
