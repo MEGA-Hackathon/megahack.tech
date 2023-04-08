@@ -269,7 +269,7 @@ const HomeMain = () => {
                         newTab={true}
                     />
                 </div> */}
-                <img src="/other/Megahack Schedule.svg" alt="schedule" className="home-schedule-image" />
+                <img src="/other/Mega Hack Schedule.svg" alt="schedule" className="home-schedule-image" />
             </HomeWhiteSection>
             <SkewedSection>
                 <HeaderFormat 
