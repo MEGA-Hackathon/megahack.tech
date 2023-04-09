@@ -15,7 +15,8 @@ const Footer = () => {
                     centered={true}
                 />
                 <div className="footer-extra">
-                    <p className="footer-extra-copyright">© 2023 MEGA League. All Rights Reserved</p>
+                    <p className="footer-extra-copyright">© 2023 MEGA League. All Rights Reserved <br/> Address: 1345 Easton Avenue, 08873, New Jersey | Email: info@megahack.tech</p>
+                    <div style={{height: 150}} />
                     {/* <div className="footer-extra-policies">
                         <a href="https://mega-hack-2022-spring.devpost.com/" target="_blank" rel="noreferrer">Terms</a>
                         <p>•</p>
