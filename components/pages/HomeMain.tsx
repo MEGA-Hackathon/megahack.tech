@@ -6,6 +6,7 @@ import InfoSectionCard from "../subcomponents/InfoSectionCard"
 import EventCard from "../subcomponents/EventCard"
 import FaqCard from "../subcomponents/FaqCard"
 import TeamMember from "../subcomponents/TeamMember"
+import SponsorGallery from "../subcomponents/SponsorGallery"
 
 
 // Layouts
@@ -111,9 +112,30 @@ const HomeMain = () => {
                     />
                 </div>
             </section>
-            <section className="home-sponsor-scroll-align" id="sponsors">
+            {/* <section className="home-sponsor-scroll-align" id="sponsors">
                 <SponsorScroll />
-            </section>
+            </section> */}
+            <SponsorGallery 
+                sponsors={[
+                    "1password.jpeg",
+                    "axure.jpeg",
+                    "echo3d.jpeg",
+                    "gar.png",
+                    "gather.png",
+                    "hotel_agni.png",
+                    "hyper_ex.jpeg",
+                    "interview_cake.jpeg",
+                    "jet_brains.jpeg",
+                    "love_&_future.png",
+                    "shawls4shelters.jpg",
+                    "startup_brite.jpg",
+                    "taskade.png",
+                    "TIM.jpg",
+                    "twilio.jpeg",
+                    "voiceflow.jpeg",
+                    "xyz.png"
+                ]}
+            />
             <section className="home-about">
                 <HeaderFormat 
                     subheader="Meet our"
