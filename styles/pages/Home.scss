@@ -50,7 +50,7 @@
 
 .home-about {
     @include grid-layout;
-    margin-top: 450px;
+    margin-top: 175px;
 }
 
 .home-participation {
@@ -110,6 +110,21 @@ $grid-gap: 35px;
     }
 }
 
+.home-sponsor-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @include grid-layout(0px);
+    gap: 100px;
+    margin: 0px 25px;
+    margin-top: 165px;
+
+    img {
+        height: 65px;
+        border-radius: 5px;
+    }
+}
+
 @media screen and (max-width: $breakpoint-4) {
     .home-main {
         padding: 0px 25px;
@@ -163,6 +178,14 @@ $grid-gap: 35px;
     }
     .home-gallery-wrapper {
         width: 110px;
+    }
+    .home-sponsor-grid {
+        margin: 0px 15px;
+        margin-top: 150px;
+
+        img {
+            height: 50px;
+        }
     }
 }
 @media screen and (max-width: $breakpoint-7) {
