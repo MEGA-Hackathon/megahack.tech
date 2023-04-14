@@ -99,8 +99,10 @@ const HomeMain = () => {
             <p style={{position: "fixed", zIndex: 1000, bottom: 0, width: "100%", padding: 25, backgroundColor: "#afa", borderTopRightRadius: 25, borderTopLeftRadius: 25, alignSelf: "center", fontFamily: "'Montserrat', sans-serif;"}}>Disclaimer: This page will change dynamically throughout MEGA Hackathon 2023, please check this site frequently for updates.</p>
             <section className="home-main">
                 <div className="home-main-subheader">LIVE NOW</div>
-                <h1>Opening Ceremony</h1>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/8OEX9P-qflA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" style={{borderRadius: 25, marginTop: 30, marginBottom: 30}} allowfullscreen></iframe>
+                <h1>Guest Speakers</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/watch?v=oP1ll9elh9o" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" style={{borderRadius: 25, marginTop: 30, marginBottom: 30}} allowFullScreen></iframe>
+                <h1>Opening Ceremony & HyperEx Tutorial</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/watch?v=8OEX9P-qflA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" style={{borderRadius: 25, marginTop: 30, marginBottom: 30}} allowFullScreen></iframe>
                 {/* <h2>What Is MEGA?</h2> */}
                 <p className="home-main-description">
                 MEGA is a coalition of high-school and college students who host a hybrid hackathon catered to the United Nations&#39; seventeen sustainable development goals.
@@ -295,6 +297,30 @@ const HomeMain = () => {
                     />
                 </div> */}
                 {/* <img src="/other/Mega Hack Schedule.svg" alt="schedule" className="home-schedule-image" /> */}
+<p className="header-format-description">
+<h1>Friday</h1>
+<br/>
+5:00-5:30 p.m. [Opening Ceremony]-Conducted by Agni<br/>
+5:30-5:45 p.m. [HyperEx Tutorial], Conducted by Daniel Achacon <br/>
+6:00-6:30 p.m. [Rahul Desai, General Manager at Sylva] Moderated by Daniel Achacon<br/>
+6:30-7:00 p.m. [Avi Patel, CEO of Nitrility] Moderated by Chul<br/>
+7:00-7:30 p.m. [Brian Whaley VP at American Express] Moderated by Agni<br/>
+7:30-8:00 p.m. [Chetan Zanwar Product Lead at Tiktok] Moderated by Jason Xu<br/>
+8:00-8:30 p.m. [Form Teams!!] Moderated by Daniel Achacon and Max Xiong<br/>
+<br/>Saturday<br/><br/>
+12:00-12:30 p.m. [NGO Theme Reveals and Sponsor/NGO/Partner networking session] Moderated by Agni<br/>
+2:00-2:30 p.m. [ML 101] Conducted by Daniel Tian<br/>
+2:30-3:00 p.m. [Web/APP Development] Conducted by Larry Liu<br/>
+3:00-3:30 p.m. [Intro to Competitive Programming] Conducted by Max Xiong<br/>
+3:30-3:40 p.m. [Intro to CAD] Conducted by Arnav Kalapala from Youth Code Foundation<br/>
+6:00-7:00 p.m. [TECH HELP]-All<br/>
+9:00-10:00 p.m. [GAME NIGHT]<br/>
+<br/>Sunday<br/><br/>
+12:00 p.m. [Submissions Due]<br/>
+12:00p.m.-12:30p.m.[Submission help]<br/>
+1:00 p.m.[Submissions close]<br/>
+1:00pm[Closing Ceremony]<br/>
+</p>
                 <div style={{height: 100}}/>
                 <HeaderFormat 
                     subheader="Speakers"
