@@ -135,7 +135,8 @@ const HomeMain = () => {
                     "TIM.jpg",
                     "twilio.jpeg",
                     "voiceflow.jpeg",
-                    "xyz.png"
+                    "xyz.png",
+                    "ycf.png"
                 ]}
             />
             <section className="home-about">
