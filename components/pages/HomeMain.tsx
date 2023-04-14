@@ -96,10 +96,12 @@ const HomeMain = () => {
     return (
         <main>
             {/* Sorry Kai this is quickfix for liability */}
-            <p style={{position: "fixed", zIndex: 1000, bottom: 0, width: "100%", padding: 25, backgroundColor: "#faf8b6", borderTopRightRadius: 25, borderTopLeftRadius: 25, alignSelf: "center", fontFamily: "'Montserrat', sans-serif;"}}>Disclaimer: Anything on this page is subject to change without notice as we finalize our plans for MEGA Hackathon 2023.</p>
+            <p style={{position: "fixed", zIndex: 1000, bottom: 0, width: "100%", padding: 25, backgroundColor: "#afa", borderTopRightRadius: 25, borderTopLeftRadius: 25, alignSelf: "center", fontFamily: "'Montserrat', sans-serif;"}}>Disclaimer: This page will change dynamically throughout MEGA Hackathon 2023, please check this site frequently for updates.</p>
             <section className="home-main">
-                <div className="home-main-subheader">MEGA Hackathon MMXXIII</div>
-                <h1>What is MEGA?</h1>
+                <div className="home-main-subheader">LIVE NOW</div>
+                <h1>Opening Ceremony</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8OEX9P-qflA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" style={{borderRadius: 25, marginTop: 30, marginBottom: 30}} allowfullscreen></iframe>
+                {/* <h2>What Is MEGA?</h2> */}
                 <p className="home-main-description">
                 MEGA is a coalition of high-school and college students who host a hybrid hackathon catered to the United Nations&#39; seventeen sustainable development goals.
                 Infusing STEM and UN SDGs, the annual MEGA Hackathon raises awareness for global welfare while instilling passion in computer science students. 
@@ -279,7 +281,7 @@ const HomeMain = () => {
                 <HeaderFormat 
                     subheader="Schedule"
                     header="MEGA Hackathon 2023 Schedule"
-                    description=""
+                    description="Reformatting. Check Discord."
                     headerLevel={2}
                     theme="light"
                     centered={true}
@@ -292,7 +294,17 @@ const HomeMain = () => {
                         newTab={true}
                     />
                 </div> */}
-                <img src="/other/Mega Hack Schedule.svg" alt="schedule" className="home-schedule-image" />
+                {/* <img src="/other/Mega Hack Schedule.svg" alt="schedule" className="home-schedule-image" /> */}
+                <div style={{height: 100}}/>
+                <HeaderFormat 
+                    subheader="Speakers"
+                    header="MEGA Hackathon 2023 Guest Speakers"
+                    description=""
+                    headerLevel={2}
+                    theme="light"
+                    centered={true}
+                />
+                <img src="https://media.discordapp.net/attachments/857650733233995776/1096546475355426928/Frame_1.png" style={{width: "100%"}}/>
             </HomeWhiteSection>
             <SkewedSection>
                 <HeaderFormat 
