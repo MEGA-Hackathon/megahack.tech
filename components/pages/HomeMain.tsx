@@ -98,17 +98,17 @@ const HomeMain = () => {
             {/* Sorry Kai this is quickfix for liability */}
             <p style={{position: "fixed", zIndex: 1000, bottom: 0, width: "100%", padding: 25, backgroundColor: "#afa", borderTopRightRadius: 25, borderTopLeftRadius: 25, alignSelf: "center", fontFamily: "'Montserrat', sans-serif;"}}>Disclaimer: This page will change dynamically throughout MEGA Hackathon 2023, please check this site frequently for updates.</p>
             <section className="home-main">
-                <div className="home-main-subheader">LIVE NOW</div>
+                <div className="home-main-subheader">Opening Ceremony</div>
                 <h1>Guest Speakers</h1>
-                <iframe width="560" height="315" src="https://www.youtube.com/watch?v=oP1ll9elh9o" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" style={{borderRadius: 25, marginTop: 30, marginBottom: 30}} allowFullScreen></iframe>
+                <iframe width="560" height="315" src="https://youtu.be/MtJf1waAC4E" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  style={{borderRadius: 25, marginTop: 30, marginBottom: 30}} allowFullScreen ></iframe>
                 <h1>Opening Ceremony & HyperEx Tutorial</h1>
-                <iframe width="560" height="315" src="https://www.youtube.com/watch?v=8OEX9P-qflA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" style={{borderRadius: 25, marginTop: 30, marginBottom: 30}} allowFullScreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/m2CqgnospmQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  style={{borderRadius: 25, marginTop: 30, marginBottom: 30}} allowFullScreen></iframe>
                 {/* <h2>What Is MEGA?</h2> */}
-                <p className="home-main-description">
+                {/* <p className="home-main-description">
                 MEGA is a coalition of high-school and college students who host a hybrid hackathon catered to the United Nations&#39; seventeen sustainable development goals.
                 Infusing STEM and UN SDGs, the annual MEGA Hackathon raises awareness for global welfare while instilling passion in computer science students. 
                 <br/><br/>Register today to stay updated on the latest news and announcements for MEGA Hackathon 2023.
-                </p>
+                </p> */}
                 <div className="home-button-align">
                     <BigButton 
                         text="Register" 
@@ -117,10 +117,65 @@ const HomeMain = () => {
                         newTab={true}
                     />
                 </div>
+                <div style={{marginTop: 50, marginBottom: 15}}/>
+                <h1>Schedule</h1>
             </section>
             {/* <section className="home-sponsor-scroll-align" id="sponsors">
                 <SponsorScroll />
             </section> */}
+            <HomeWhiteSection id="schedule">
+                {/* <HeaderFormat 
+                    subheader="Schedule"
+                    header="MEGA Hackathon 2023 Schedule"
+                    description="Reformatting. Check Discord."
+                    headerLevel={2}
+                    theme="light"
+                    centered={true}
+                /> */}
+                {/* <div className="home-button-align">
+                    <BigButton 
+                        text="Register" 
+                        arrow={true} 
+                        href="https://airtable.com/shr6YRvkQ9geLsnXD" 
+                        newTab={true}
+                    />
+                </div> */}
+                {/* <img src="/other/Mega Hack Schedule.svg" alt="schedule" className="home-schedule-image" /> */}
+<p className="header-format-description">
+<h1>Friday</h1>
+<br/>
+5:00-5:30 p.m. [Opening Ceremony]-Conducted by Agni<br/>
+5:30-5:45 p.m. [HyperEx Tutorial], Conducted by Daniel Achacon <br/>
+6:00-6:30 p.m. [Rahul Desai, General Manager at Sylva] Moderated by Daniel Achacon<br/>
+6:30-7:00 p.m. [Avi Patel, CEO of Nitrility] Moderated by Chul<br/>
+7:00-7:30 p.m. [Brian Whaley VP at American Express] Moderated by Agni<br/>
+7:30-8:00 p.m. [Chetan Zanwar Product Lead at Tiktok] Moderated by Jason Xu<br/>
+8:00-8:30 p.m. [Form Teams!!] Moderated by Daniel Achacon and Max Xiong<br/>
+<br/>Saturday<br/><br/>
+12:00-12:30 p.m. [NGO Theme Reveals and Sponsor/NGO/Partner networking session] Moderated by Agni<br/>
+2:00-2:30 p.m. [ML 101] Conducted by Daniel Tian<br/>
+2:30-3:00 p.m. [Web/APP Development] Conducted by Larry Liu<br/>
+3:00-3:30 p.m. [Intro to Competitive Programming] Conducted by Max Xiong<br/>
+3:30-3:40 p.m. [Intro to CAD] Conducted by Arnav Kalapala from Youth Code Foundation<br/>
+6:00-7:00 p.m. [TECH HELP]-All<br/>
+9:00-10:00 p.m. [GAME NIGHT]<br/>
+<br/>Sunday<br/><br/>
+12:00 p.m. [Submissions Due]<br/>
+12:00p.m.-12:30p.m.[Submission help]<br/>
+1:00 p.m.[Submissions close]<br/>
+1:00pm[Closing Ceremony]<br/>
+</p>
+                <div style={{height: 100}}/>
+                <HeaderFormat 
+                    subheader="Speakers"
+                    header="MEGA Hackathon 2023 Guest Speakers"
+                    description=""
+                    headerLevel={2}
+                    theme="light"
+                    centered={true}
+                />
+                <img src="https://media.discordapp.net/attachments/857650733233995776/1096546475355426928/Frame_1.png" style={{width: "100%"}}/>
+            </HomeWhiteSection>
             <SponsorGallery 
                 sponsors={[
                     "1password.jpeg",
@@ -143,6 +198,94 @@ const HomeMain = () => {
                     "ycf.png"
                 ]}
             />
+            <SkewedSection>
+                <HeaderFormat 
+                    subheader="MEGA Hackathon 2023"
+                    header="Prizes And Awards"
+                    theme="dark"
+                    headerLevel={2}
+                />
+                <PrizeSection>
+                    <PrizeSectionCard 
+                        theme="light" 
+                        number={1}
+                        header="Grand Winners (3)"
+                        description="3 Projects get Opportunity to Pitch to SEED VC Funds for Investment and Partnership Opportunities of $1000!"
+                    />
+                    <PrizeSectionCard 
+                        theme="light" 
+                        number={2}
+                        header="1st Place"
+                        description="$300 Cash Prize & $300 Lifetime Taskade Pro"
+                    />
+                    <PrizeSectionCard 
+                        theme="light" 
+                        number={3}
+                        header="2nd Place"
+                        description="$200 Cash Prize & $300 Lifetime Taskade Pro"
+                    />
+                    <PrizeSectionCard 
+                        theme="light" 
+                        number={3}
+                        header="3rd Place"
+                        description="$100 Cash Prize & $300 Lifetime Taskade Pro"
+                    />
+                    <PrizeSectionCard 
+                        theme="light" 
+                        number={3}
+                        header="Entrepreneurship Award" 
+                        description="HIGHSCHOOLERS ONLY - Fully sponsored opportunity to Pitch project/idea in StartupBrite investor conference & will obtain entry to apply to the inaugural MEGA Entreprenurial Incubator"
+                    />
+                    <PrizeSectionCard 
+                        theme="light" 
+                        number={3}
+                        header="Entrepreneurial Fellows Program (100)" 
+                        description="Opportunity to Intern at a startup associated with our partnered accelerator"
+                    />
+                    <PrizeSectionCard 
+                        theme="light" 
+                        number={3}
+                        header="Healthcare Category" 
+                        description="Internship prize and opportunity to take application further with Medical organization/Coalition"
+                    />
+                    <PrizeSectionCard 
+                        theme="light" 
+                        number={3}
+                        header="Anti-Corruption/Transparency Category" 
+                        description="Supported by the International Transparency Organization Macedonia"
+                    />
+                    <PrizeSectionCard 
+                        theme="light" 
+                        number={3}
+                        header="Climate Category" 
+                        description="Further Project Development and Internship with the Love&Future Organization alongside Columbia PHDs"
+                    />
+                    <PrizeSectionCard 
+                        theme="light" 
+                        number={3}
+                        header="Robotics/Hardware Category (2)" 
+                        description="$226 Goliath Automation and Robotics: Monster Kit"
+                    />
+                    <PrizeSectionCard 
+                        theme="light" 
+                        number={3}
+                        header="Homelessness/Justice Category" 
+                        description="Internship prize and opportunity to take application further with NGOs"
+                    />
+                    <PrizeSectionCard 
+                        theme="light" 
+                        number={3}
+                        header=" Hospitality/Restaurant Industry Award" 
+                        description="Internship prize and opportunity to take application further with leading Hotel/Restaurant Chain"
+                    />
+                    <PrizeSectionCard 
+                        theme="light" 
+                        number={3}
+                        header="Participation (1,000)" 
+                        description="$10 .xyz domain $50 1 Month Voiceflow Team License $228 1 Year Taskade Pro Account $504 1 Year Axure RP Team Edition $99 Echo3d Premium Account $249 Interview Cake Full Coding Interview Course 25% off the first year of 1Password Families"
+                    />
+                </PrizeSection>
+            </SkewedSection>
             <section className="home-about">
                 <HeaderFormat 
                     subheader="Meet our"
@@ -278,148 +421,8 @@ const HomeMain = () => {
                     />
                 </InfoSection>
             </SkewedSection>
-            
-            <HomeWhiteSection id="schedule">
-                <HeaderFormat 
-                    subheader="Schedule"
-                    header="MEGA Hackathon 2023 Schedule"
-                    description="Reformatting. Check Discord."
-                    headerLevel={2}
-                    theme="light"
-                    centered={true}
-                />
-                {/* <div className="home-button-align">
-                    <BigButton 
-                        text="Register" 
-                        arrow={true} 
-                        href="https://airtable.com/shr6YRvkQ9geLsnXD" 
-                        newTab={true}
-                    />
-                </div> */}
-                {/* <img src="/other/Mega Hack Schedule.svg" alt="schedule" className="home-schedule-image" /> */}
-<p className="header-format-description">
-<h1>Friday</h1>
-<br/>
-5:00-5:30 p.m. [Opening Ceremony]-Conducted by Agni<br/>
-5:30-5:45 p.m. [HyperEx Tutorial], Conducted by Daniel Achacon <br/>
-6:00-6:30 p.m. [Rahul Desai, General Manager at Sylva] Moderated by Daniel Achacon<br/>
-6:30-7:00 p.m. [Avi Patel, CEO of Nitrility] Moderated by Chul<br/>
-7:00-7:30 p.m. [Brian Whaley VP at American Express] Moderated by Agni<br/>
-7:30-8:00 p.m. [Chetan Zanwar Product Lead at Tiktok] Moderated by Jason Xu<br/>
-8:00-8:30 p.m. [Form Teams!!] Moderated by Daniel Achacon and Max Xiong<br/>
-<br/>Saturday<br/><br/>
-12:00-12:30 p.m. [NGO Theme Reveals and Sponsor/NGO/Partner networking session] Moderated by Agni<br/>
-2:00-2:30 p.m. [ML 101] Conducted by Daniel Tian<br/>
-2:30-3:00 p.m. [Web/APP Development] Conducted by Larry Liu<br/>
-3:00-3:30 p.m. [Intro to Competitive Programming] Conducted by Max Xiong<br/>
-3:30-3:40 p.m. [Intro to CAD] Conducted by Arnav Kalapala from Youth Code Foundation<br/>
-6:00-7:00 p.m. [TECH HELP]-All<br/>
-9:00-10:00 p.m. [GAME NIGHT]<br/>
-<br/>Sunday<br/><br/>
-12:00 p.m. [Submissions Due]<br/>
-12:00p.m.-12:30p.m.[Submission help]<br/>
-1:00 p.m.[Submissions close]<br/>
-1:00pm[Closing Ceremony]<br/>
-</p>
-                <div style={{height: 100}}/>
-                <HeaderFormat 
-                    subheader="Speakers"
-                    header="MEGA Hackathon 2023 Guest Speakers"
-                    description=""
-                    headerLevel={2}
-                    theme="light"
-                    centered={true}
-                />
-                <img src="https://media.discordapp.net/attachments/857650733233995776/1096546475355426928/Frame_1.png" style={{width: "100%"}}/>
-            </HomeWhiteSection>
-            <SkewedSection>
-                <HeaderFormat 
-                    subheader="MEGA Hackathon 2023"
-                    header="Prizes And Awards"
-                    theme="dark"
-                    headerLevel={2}
-                />
-                <PrizeSection>
-                    <PrizeSectionCard 
-                        theme="light" 
-                        number={1}
-                        header="Grand Winners (3)"
-                        description="3 Projects get Opportunity to Pitch to SEED VC Funds for Investment and Partnership Opportunities of $1000!"
-                    />
-                    <PrizeSectionCard 
-                        theme="light" 
-                        number={2}
-                        header="1st Place"
-                        description="$300 Cash Prize & $300 Lifetime Taskade Pro"
-                    />
-                    <PrizeSectionCard 
-                        theme="light" 
-                        number={3}
-                        header="2nd Place"
-                        description="$200 Cash Prize & $300 Lifetime Taskade Pro"
-                    />
-                    <PrizeSectionCard 
-                        theme="light" 
-                        number={3}
-                        header="3rd Place"
-                        description="$100 Cash Prize & $300 Lifetime Taskade Pro"
-                    />
-                    <PrizeSectionCard 
-                        theme="light" 
-                        number={3}
-                        header="Entrepreneurship Award" 
-                        description="HIGHSCHOOLERS ONLY - Fully sponsored opportunity to Pitch project/idea in StartupBrite investor conference & will obtain entry to apply to the inaugural MEGA Entreprenurial Incubator"
-                    />
-                    <PrizeSectionCard 
-                        theme="light" 
-                        number={3}
-                        header="Entrepreneurial Fellows Program (100)" 
-                        description="Opportunity to Intern at a startup associated with our partnered accelerator"
-                    />
-                    <PrizeSectionCard 
-                        theme="light" 
-                        number={3}
-                        header="Healthcare Category" 
-                        description="Internship prize and opportunity to take application further with Medical organization/Coalition"
-                    />
-                    <PrizeSectionCard 
-                        theme="light" 
-                        number={3}
-                        header="Anti-Corruption/Transparency Category" 
-                        description="Supported by the International Transparency Organization Macedonia"
-                    />
-                    <PrizeSectionCard 
-                        theme="light" 
-                        number={3}
-                        header="Climate Category" 
-                        description="Further Project Development and Internship with the Love&Future Organization alongside Columbia PHDs"
-                    />
-                    <PrizeSectionCard 
-                        theme="light" 
-                        number={3}
-                        header="Robotics/Hardware Category (2)" 
-                        description="$226 Goliath Automation and Robotics: Monster Kit"
-                    />
-                    <PrizeSectionCard 
-                        theme="light" 
-                        number={3}
-                        header="Homelessness/Justice Category" 
-                        description="Internship prize and opportunity to take application further with NGOs"
-                    />
-                    <PrizeSectionCard 
-                        theme="light" 
-                        number={3}
-                        header=" Hospitality/Restaurant Industry Award" 
-                        description="Internship prize and opportunity to take application further with leading Hotel/Restaurant Chain"
-                    />
-                    <PrizeSectionCard 
-                        theme="light" 
-                        number={3}
-                        header="Participation (1,000)" 
-                        description="$10 .xyz domain $50 1 Month Voiceflow Team License $228 1 Year Taskade Pro Account $504 1 Year Axure RP Team Edition $99 Echo3d Premium Account $249 Interview Cake Full Coding Interview Course 25% off the first year of 1Password Families"
-                    />
-                </PrizeSection>
-            </SkewedSection>
+
+
             <HomeWhiteSection>
                 <HeaderFormat 
                     subheader="FAQ's"
