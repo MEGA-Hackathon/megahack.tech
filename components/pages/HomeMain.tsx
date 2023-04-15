@@ -97,7 +97,7 @@ const HomeMain = () => {
         <main>
             {/* Sorry Kai this is quickfix for liability */}
             {/* <p style={{position: "fixed", zIndex: 1000, bottom: 0, width: "100%", padding: 25, backgroundColor: "#afa", borderTopRightRadius: 25, borderTopLeftRadius: 25, alignSelf: "center", fontFamily: "'Montserrat', sans-serif;"}}>Disclaimer: This page will change dynamically throughout MEGA Hackathon 2023, please check this site frequently for updates.</p> */}
-            <img src="https://media.discordapp.net/attachments/857650733233995776/1096850122350010580/3d_gradient_sphere_5k-other_1_1.png" style={{width: "100%"}}/>
+            <a href="https://live.megahack.tech"><img src="https://media.discordapp.net/attachments/857650733233995776/1096850122350010580/3d_gradient_sphere_5k-other_1_1.png" style={{width: "100%"}}/></a>
             <SponsorGallery 
                 sponsors={[
                     "1password.jpeg",
