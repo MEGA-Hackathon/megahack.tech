@@ -100,7 +100,7 @@ const HomeMain = () => {
             <section className="home-main">
                 <div className="home-main-subheader">Opening Ceremony</div>
                 <h1>Guest Speakers</h1>
-                <iframe width="560" height="315" src="https://youtu.be/MtJf1waAC4E" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  style={{borderRadius: 25, marginTop: 30, marginBottom: 30}} allowFullScreen ></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/MtJf1waAC4E" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" style={{borderRadius: 25, marginTop: 30, marginBottom: 30}} allowFullScreen></iframe>
                 <h1>Opening Ceremony & HyperEx Tutorial</h1>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/m2CqgnospmQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  style={{borderRadius: 25, marginTop: 30, marginBottom: 30}} allowFullScreen></iframe>
                 {/* <h2>What Is MEGA?</h2> */}
@@ -109,14 +109,14 @@ const HomeMain = () => {
                 Infusing STEM and UN SDGs, the annual MEGA Hackathon raises awareness for global welfare while instilling passion in computer science students. 
                 <br/><br/>Register today to stay updated on the latest news and announcements for MEGA Hackathon 2023.
                 </p> */}
-                <div className="home-button-align">
+                {/* <div className="home-button-align">
                     <BigButton 
                         text="Register" 
                         arrow={true} 
                         href="https://airtable.com/shr6YRvkQ9geLsnXD" 
                         newTab={true}
                     />
-                </div>
+                </div> */}
                 <div style={{marginTop: 50, marginBottom: 15}}/>
                 <h1>Schedule</h1>
             </section>
