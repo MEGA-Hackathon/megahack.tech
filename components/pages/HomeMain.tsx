@@ -141,7 +141,7 @@ const HomeMain = () => {
                     />
                 </div> */}
                 {/* <img src="/other/Mega Hack Schedule.svg" alt="schedule" className="home-schedule-image" /> */}
-<p className="header-format-description">
+{/* <p className="header-format-description">
 <h1>Friday</h1>
 <br/>
 5:00-5:30 p.m. [Opening Ceremony]-Conducted by Agni<br/>
@@ -164,7 +164,8 @@ const HomeMain = () => {
 12:00p.m.-12:30p.m.[Submission help]<br/>
 1:00 p.m.[Submissions close]<br/>
 1:00pm[Closing Ceremony]<br/>
-</p>
+</p> */}
+                <a href="https://discord.gg/YysZUK7F6B" className="home-button-align" style={{marginTop: 50, marginBottom: 15}}>Join Discord To Check Schedule</a>
                 <div style={{height: 100}}/>
                 <HeaderFormat 
                     subheader="Speakers"
