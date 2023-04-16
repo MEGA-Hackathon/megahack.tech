@@ -24,6 +24,7 @@ import { useState, useEffect } from "react"
 import faqData from "../../utils/data/faq.json"
 import teamData from "../../utils/data/team.json"
 import imageData from "../../utils/data/gallery.json"
+import imageData2023 from "../../utils/data/gallery2023.json"
 import PrizeSection from "../layouts/PrizeSection"
 import PrizeSectionCard from "../subcomponents/PrizeSectionCard"
 
@@ -33,6 +34,12 @@ const HomeMain = () => {
     const [faqElements2, setFaqElements2] = useState<any>()
     const [teamMembers, setTeamMembers] = useState<any>()
     const [galleryImages, setGalleryImages] = useState<any>({
+        column1: [],
+        column2: [],
+        column3: []
+    })
+
+    const [galleryImages2023, setGalleryImages2023] = useState<any>({
         column1: [],
         column2: [],
         column3: []
@@ -90,6 +97,26 @@ const HomeMain = () => {
             column2: image2,
             column3: image3
         })
+
+        // Our gallery images
+        const images2 = imageData2023.map((image: any, index: any) => {
+            // console.log(image)
+            return (
+                <img src={image} alt="image" key={index} />
+            )
+        })
+        
+        // Split the images into 3 arrays
+        const imageLength2 = images2.length;
+        const image12 = images2.slice(0, Math.ceil(imageLength / 3));
+        const image22 = images2.slice(Math.ceil(imageLength2 / 3), Math.ceil(imageLength2 / 3) * 2);
+        const image32 = images2.slice(Math.ceil(imageLength2 / 3) * 2, imageLength2);
+
+        setGalleryImages2023({
+            column1: image12,
+            column2: image22,
+            column3: image32
+        })
     }, [])
 
 
@@ -120,6 +147,22 @@ const HomeMain = () => {
                     "ycf.png"
                 ]}
             />
+            <div style={{height: 100}}/>
+            <HomeWhiteSection>
+                <HeaderFormat 
+                    subheader="Greetings from Rutgers Prep!"
+                    header="From the In-Person Venue @ MEGA Hackathon 2023"
+                    // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et aliquet nunc, ut efficitur erat. Fusce elementum, tellus sed fringilla sagittis, massa metus condimentum ligula, sed mattis sapien nunc sed mi."
+                    theme="light"
+                    centered={true}
+                    headerLevel={2}
+                />
+                <div className="home-gallery-container">
+                    <div className="home-gallery-wrapper">{galleryImages2023.column1}</div>
+                    <div className="home-gallery-wrapper">{galleryImages2023.column2}</div>
+                    <div className="home-gallery-wrapper">{galleryImages2023.column3}</div>
+                </div>
+            </HomeWhiteSection>
             <SkewedSection>
                 <HeaderFormat 
                     subheader="MEGA Hackathon 2023"
