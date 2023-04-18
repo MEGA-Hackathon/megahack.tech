@@ -123,8 +123,25 @@ const HomeMain = () => {
     return (
         <main>
             {/* Sorry Kai this is quickfix for liability */}
-            {/* <p style={{position: "fixed", zIndex: 1000, bottom: 0, width: "100%", padding: 25, backgroundColor: "#afa", borderTopRightRadius: 25, borderTopLeftRadius: 25, alignSelf: "center", fontFamily: "'Montserrat', sans-serif;"}}>Disclaimer: This page will change dynamically throughout MEGA Hackathon 2023, please check this site frequently for updates.</p> */}
-            <a href="https://live.megahack.tech"><img src="https://media.discordapp.net/attachments/857650733233995776/1096850122350010580/3d_gradient_sphere_5k-other_1_1.png" style={{width: "100%"}}/></a>
+            <a href="https://live.megahack.tech" style={{position: "fixed", zIndex: 1000, bottom: 0, width: "100%", padding: 25, backgroundColor: "#afa", borderTopRightRadius: 25, borderTopLeftRadius: 25, alignSelf: "center", fontFamily: "'Montserrat', sans-serif;"}}>MEGA Hackathon 2023 just finished. Click here to watch opening ceremony, guest speakers, and closing ceremony (22nd).</a>
+            {/* <a href="https://live.megahack.tech"><img src="https://media.discordapp.net/attachments/857650733233995776/1096850122350010580/3d_gradient_sphere_5k-other_1_1.png" style={{width: "100%"}}/></a> */}
+            <section className="home-main">
+                <div className="home-main-subheader">MEGA Hackathon MMXXIII</div>
+                <h1>What is MEGA?</h1>
+                <p className="home-main-description">
+                MEGA is a coalition of high-school and college students who host a hybrid hackathon catered to the United Nations&#39; seventeen sustainable development goals.
+                Infusing STEM and UN SDGs, the annual MEGA Hackathon raises awareness for global welfare while instilling passion in computer science students. 
+                <br/><br/>Register today to stay updated on the latest news and announcements for MEGA Hackathon 2023.
+                </p>
+                <div className="home-button-align">
+                    <BigButton 
+                        text="Register" 
+                        arrow={true} 
+                        href="https://airtable.com/shr6YRvkQ9geLsnXD" 
+                        newTab={true}
+                    />
+                </div>
+            </section>
             <SponsorGallery 
                 sponsors={[
                     "1password.jpeg",
