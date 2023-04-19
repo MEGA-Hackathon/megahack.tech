@@ -131,13 +131,13 @@ const HomeMain = () => {
                 <p className="home-main-description">
                 MEGA is a coalition of high-school and college students who host a hybrid hackathon catered to the United Nations&#39; seventeen sustainable development goals.
                 Infusing STEM and UN SDGs, the annual MEGA Hackathon raises awareness for global welfare while instilling passion in computer science students. 
-                <br/><br/>Register today to stay updated on the latest news and announcements for MEGA Hackathon 2023.
+                <br/><br/>MEGA Hackathon 2023 has ended. View Gallery Below.
                 </p>
                 <div className="home-button-align">
                     <BigButton 
-                        text="Register" 
+                        text="View Gallery" 
                         arrow={true} 
-                        href="https://airtable.com/shr6YRvkQ9geLsnXD" 
+                        href="https://gallery.megahack.tech" 
                         newTab={true}
                     />
                 </div>
@@ -164,8 +164,8 @@ const HomeMain = () => {
                     "ycf.png"
                 ]}
             />
-            <div style={{height: 100}}/>
-            <HomeWhiteSection>
+            {/* <div style={{height: 100}}/> */}
+            {/* <HomeWhiteSection>
                 <HeaderFormat 
                     subheader="Greetings from Rutgers Prep!"
                     header="From the In-Person Venue @ MEGA Hackathon 2023"
@@ -179,8 +179,8 @@ const HomeMain = () => {
                     <div className="home-gallery-wrapper">{galleryImages2023.column2}</div>
                     <div className="home-gallery-wrapper">{galleryImages2023.column3}</div>
                 </div>
-            </HomeWhiteSection>
-            <SkewedSection>
+            </HomeWhiteSection> */}
+            {/* <SkewedSection>
                 <HeaderFormat 
                     subheader="MEGA Hackathon 2023"
                     header="Prizes And Awards"
@@ -267,7 +267,7 @@ const HomeMain = () => {
                         description="$10 .xyz domain $50 1 Month Voiceflow Team License $228 1 Year Taskade Pro Account $504 1 Year Axure RP Team Edition $99 Echo3d Premium Account $249 Interview Cake Full Coding Interview Course 25% off the first year of 1Password Families"
                     />
                 </PrizeSection>
-            </SkewedSection>
+            </SkewedSection> */}
             <section className="home-about">
                 <HeaderFormat 
                     subheader="Meet our"
@@ -299,7 +299,7 @@ const HomeMain = () => {
                     />
                 </InfoSection>
             </section>
-            <section className="home-participation">
+            {/* <section className="home-participation">
                 <SkewedSection>
                     <HeaderFormat 
                         subheader="Why you should"
@@ -332,7 +332,8 @@ const HomeMain = () => {
                         />
                     </InfoSection>
                 </SkewedSection>
-            </section>
+            </section> */}
+            <div style={{height: 100}}/>
             <HomeWhiteSection id="events">
                 <HeaderFormat 
                     subheader="Events"
@@ -349,9 +350,9 @@ const HomeMain = () => {
                         date="April 14th; 15th - 16th"
                         category="Competetive"
                         style="Hackathon"
-                        description="Like last year, MEGA Hackathon will host another Hackathon event in 2023 themed on real-world problems."
-                        learnMoreLink="https://airtable.com/shr6YRvkQ9geLsnXD"
-                        learnMoreHeader="Register"
+                        description="Like last year, MEGA Hackathon hosted another Hackathon event in 2023 themed on real-world problems."
+                        learnMoreLink="https://gallery.megahack.tech"
+                        learnMoreHeader="View Gallery"
                     />
                     <EventCard 
                         image="https://images.unsplash.com/photo-1655720828018-edd2daec9349?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
@@ -375,7 +376,7 @@ const HomeMain = () => {
                     />
                 </div>
             </HomeWhiteSection>
-            <SkewedSection>
+            {/* <SkewedSection>
                 <HeaderFormat 
                     subheader="Information on"
                     header="When and Where is MEGA Hackathon 2023"
@@ -402,9 +403,9 @@ const HomeMain = () => {
                         description="Everyone! There is no cost to attend, and we welcome all skill levels. Workshops are also offered before the Hackathon!"
                     />
                 </InfoSection>
-            </SkewedSection>
+            </SkewedSection> */}
 
-
+            <div style={{height: 100}}/>
             <HomeWhiteSection>
                 <HeaderFormat 
                     subheader="FAQ's"
@@ -438,17 +439,23 @@ const HomeMain = () => {
             <HomeWhiteSection>
                 <HeaderFormat 
                     subheader="Gallery"
-                    header="A Recollection of MEGA Hackathon 2022!"
+                    header="A Recollection of Past MEGA Hackathons!"
                     // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et aliquet nunc, ut efficitur erat. Fusce elementum, tellus sed fringilla sagittis, massa metus condimentum ligula, sed mattis sapien nunc sed mi."
                     theme="light"
                     centered={true}
                     headerLevel={2}
                 />
-                <div className="home-gallery-container">
+                <div style={{height: 50}}/>
+                <BigButton 
+                    text="View Gallery"
+                    href="https://gallery.megahack.tech"
+                    newTab={true}
+                />
+                {/* <div className="home-gallery-container">
                     <div className="home-gallery-wrapper">{galleryImages.column1}</div>
                     <div className="home-gallery-wrapper">{galleryImages.column2}</div>
                     <div className="home-gallery-wrapper">{galleryImages.column3}</div>
-                </div>
+                </div> */}
             </HomeWhiteSection>
         </main>
     )
