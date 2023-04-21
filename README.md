@@ -2,6 +2,8 @@
 
 This is the website for Megahack 2023!
 
+Additional sites in other repos.
+
 ## Setup and development
 
 First you need to install the packages
