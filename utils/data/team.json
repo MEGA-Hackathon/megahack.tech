@@ -35,39 +35,14 @@
         "image": "/team/michael chang.jpeg"
     },
     {
-        "name": "Kyna Tyagi",
-        "role": "Partnerships Team",
-        "image": "/team/kyna tyagi.JPG"
-    },
-    {
-        "name": "Cheng Hua",
-        "role": "Outreach",
-        "image": "/team/cheng hua.jpg"
-    },
-    {
         "name": "Karunya Agarwal",
         "role": "Logistics",
         "image": "/team/karunya agarwal.jpg"
     },
     {
-        "name": "Lea Ping",
-        "role": "Outreach",
-        "image": "/team/lea ping.jpeg"
-    },
-    {
-        "name": "Su Yeon (Sally) Lee",
-        "role": "Logistics",
-        "image": "/team/su yeon lee.jpg"
-    },
-    {
         "name": "Promit Mukhopadhyay",
         "role": "Marketing",
         "image": "/team/promit mukhopadhyay.jpeg"
-    },
-    {
-        "name": "Kenneth W.",
-        "role": "Developer",
-        "image": "/team/kenneth w.jpg"
     },
     {
         "name": "Chul Lee",
@@ -78,5 +53,10 @@
         "name": "Kai Pereira",
         "role": "Development",
         "image": "/team/kai pereira.jpg"
+    },
+    {
+        "name": "Larry Liu",
+        "role": "Development",
+        "image": "/team/larry liu.jpg"
     }
 ]
