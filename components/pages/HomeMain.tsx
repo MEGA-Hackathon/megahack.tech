@@ -123,7 +123,7 @@ const HomeMain = () => {
     return (
         <main>
             {/* Sorry Kai this is quickfix for liability */}
-            <a href="https://live.megahack.tech" style={{position: "fixed", zIndex: 1000, bottom: 0, width: "100%", padding: 25, backgroundColor: "#afa", borderTopRightRadius: 25, borderTopLeftRadius: 25, alignSelf: "center", fontFamily: "'Montserrat', sans-serif;"}}>MEGA Hackathon 2023 just finished. Click here to watch opening ceremony, guest speakers, and closing ceremony (22nd).</a>
+            <a href="https://live.megahack.tech" style={{position: "fixed", zIndex: 1000, bottom: 0, width: "100%", padding: 25, backgroundColor: "#afa", borderTopRightRadius: 25, borderTopLeftRadius: 25, alignSelf: "center", fontFamily: "'Montserrat', sans-serif;"}}>Winners will be announced tomorrow in closing ceremony! Click here to watch at 1pm EST.</a>
             {/* <a href="https://live.megahack.tech"><img src="https://media.discordapp.net/attachments/857650733233995776/1096850122350010580/3d_gradient_sphere_5k-other_1_1.png" style={{width: "100%"}}/></a> */}
             <section className="home-main">
                 <div className="home-main-subheader">MEGA Hackathon MMXXIII</div>
