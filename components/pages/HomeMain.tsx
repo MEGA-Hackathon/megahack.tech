@@ -123,7 +123,7 @@ const HomeMain = () => {
     return (
         <main>
             {/* Sorry Kai this is quickfix for liability */}
-            <a href="https://live.megahack.tech" style={{position: "fixed", zIndex: 1000, bottom: 0, width: "100%", padding: 25, backgroundColor: "#afa", borderTopRightRadius: 25, borderTopLeftRadius: 25, alignSelf: "center", fontFamily: "'Montserrat', sans-serif;"}}>Winners will be announced tomorrow in closing ceremony! Click here to watch at 1pm EST.</a>
+            <a href="https://debate.megahack.tech" style={{position: "fixed", zIndex: 1000, top: 0, width: "100%", padding: 25, backgroundImage: "linear-gradient(rgba(0, 255, 145, 1), rgba(255, 255, 0, 1))", borderBottomRightRadius: 25, borderBottomLeftRadius: 25, alignSelf: "center", fontFamily: "'Montserrat', sans-serif;"}}>NEW! MEGA worldwide debate 2023 | Register for this summer.</a>
             {/* <a href="https://live.megahack.tech"><img src="https://media.discordapp.net/attachments/857650733233995776/1096850122350010580/3d_gradient_sphere_5k-other_1_1.png" style={{width: "100%"}}/></a> */}
             <section className="home-main">
                 <div className="home-main-subheader">MEGA Hackathon MMXXIII</div>
@@ -131,13 +131,13 @@ const HomeMain = () => {
                 <p className="home-main-description">
                 MEGA is a coalition of high-school and college students who host a hybrid hackathon catered to the United Nations&#39; seventeen sustainable development goals.
                 Infusing STEM and UN SDGs, the annual MEGA Hackathon raises awareness for global welfare while instilling passion in computer science students. 
-                <br/><br/>MEGA Hackathon 2023 has ended. View Gallery Below.
+                <br/><br/>MEGA Hackathon 2023 has ended. View Summary Below.
                 </p>
                 <div className="home-button-align">
                     <BigButton 
-                        text="View Gallery" 
+                        text="View Summary" 
                         arrow={true} 
-                        href="https://gallery.megahack.tech" 
+                        href="https://live.megahack.tech" 
                         newTab={true}
                     />
                 </div>
@@ -281,21 +281,21 @@ const HomeMain = () => {
                         number={1}
                         header="Motivated & Driven"
                         description="At the core of MEGA is an amazing community of innovators and problem solvers working passionately about creating solutions for the UN's 17 sustainability goals."
-                        learnMoreLink="https://mega-hack-2022-spring.devpost.com/"
+                        learnMoreLink="https://live.megahack.tech"
                     />
                     <InfoSectionCard 
                         theme="dark" 
                         number={2}
                         header="Knowledgable & Connected"
                         description="MEGA is backed by a coalition of NGO's, entreprenuers, and tech companies able to provide decades of experiance, guidance, and advice to our members."
-                        learnMoreLink="https://mega-hack-2022-spring.devpost.com/"
+                        learnMoreLink="https://live.megahack.tech"
                     />
                     <InfoSectionCard 
                         theme="dark" 
                         number={3}
                         header='Truly "MEGA"'
                         description="Our MEGA Hackathon had 200+ attendees from 20+ countries collaborated with 40+ NGOs and Partners who donated over 50k USD in funding, awards, sponsorships, and internships."
-                        learnMoreLink="https://mega-hack-2022-spring.devpost.com/"
+                        learnMoreLink="https://live.megahack.tech"
                     />
                 </InfoSection>
             </section>
@@ -314,21 +314,21 @@ const HomeMain = () => {
                             number={1}
                             header="Collaborate with like-minded individuals"
                             description="Collaborate with talented individuals from around the world passionate about creating solutions for the UN's 17 sustainability goals."
-                            learnMoreLink="https://mega-hack-2022-spring.devpost.com/"
+                            learnMoreLink="https://live.megahack.tech"
                         />
                         <InfoSectionCard 
                             theme="light" 
                             number={2}
                             header="Win funding, awards and internships"
                             description="Last year, Megahack had awards worth 50K+ USD. This year, we are looking to expand our prizes and awards to help you take your project to the next level."
-                            learnMoreLink="https://mega-hack-2022-spring.devpost.com/"
+                            learnMoreLink="https://live.megahack.tech"
                         />
                         <InfoSectionCard 
                             theme="light" 
                             number={3}
                             header="Grow your STEM skills and capabilities"
                             description="Megahack is a great oppurtunity to earn new skills, learn from mentors and professionals, build your portfolio and confidence!"
-                            learnMoreLink="https://mega-hack-2022-spring.devpost.com/"
+                            learnMoreLink="https://live.megahack.tech"
                         />
                     </InfoSection>
                 </SkewedSection>
@@ -345,14 +345,24 @@ const HomeMain = () => {
                 />
                 <div className="home-events-wrapper">
                     <EventCard 
+                        image="https://th.bing.com/th/id/OIP.K_PGogquyyrlg7NWglgP6wHaE6?pid=ImgDet&rs=1"
+                        title="THE MEGA WORLDWIDE DEBATE 2023"
+                        date="TBD"
+                        category="Competetive"
+                        style="Debate"
+                        description="MEGA Hackathon is running its first annual debate. This debate will focus on the UN SDGs like the hackathon."
+                        learnMoreLink="https://debate.megahack.tech"
+                        learnMoreHeader="Pre-Register"
+                    />
+                    <EventCard 
                         image="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
                         title="MEGA Hackathon 2023"
                         date="April 14th; 15th - 16th"
                         category="Competetive"
                         style="Hackathon"
                         description="Like last year, MEGA Hackathon hosted another Hackathon event in 2023 themed on real-world problems."
-                        learnMoreLink="https://gallery.megahack.tech"
-                        learnMoreHeader="View Gallery"
+                        learnMoreLink="https://live.megahack.tech"
+                        learnMoreHeader="View Summary"
                     />
                     <EventCard 
                         image="https://images.unsplash.com/photo-1655720828018-edd2daec9349?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
@@ -371,7 +381,7 @@ const HomeMain = () => {
                         category="Completed"
                         style="Hackathon"
                         description="Our first annual MEGA Hackathon. It was a blast! Winners took home internships and $50k+ of prizes."
-                        learnMoreLink="https://mega-hack-2022-spring.devpost.com/"
+                        learnMoreLink="https://live.megahack.tech"
                         learnMoreHeader="Learn More"
                     />
                 </div>
@@ -438,17 +448,17 @@ const HomeMain = () => {
             </SkewedSection>
             <HomeWhiteSection>
                 <HeaderFormat 
-                    subheader="Gallery"
-                    header="A Recollection of Past MEGA Hackathons!"
-                    // description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et aliquet nunc, ut efficitur erat. Fusce elementum, tellus sed fringilla sagittis, massa metus condimentum ligula, sed mattis sapien nunc sed mi."
+                    subheader="Summary"
+                    header="Look at our past 2023 Hackathon!"
+                    // description="View our past MEGA Hackathon 2023."
                     theme="light"
                     centered={true}
                     headerLevel={2}
                 />
                 <div style={{height: 50}}/>
                 <BigButton 
-                    text="View Gallery"
-                    href="https://gallery.megahack.tech"
+                    text="View Summary"
+                    href="https://live.megahack.tech"
                     newTab={true}
                 />
                 {/* <div className="home-gallery-container">

@@ -38,7 +38,7 @@ const Class = () => {
             <img src={"https://cdn.discordapp.com/attachments/1081712754253119508/1089969260916391986/30f5af1c-2d13-43a6-bff6-69d805528b18.jpg"} style={{width: "100%", height: "50vh", objectFit: "cover"}}/>
             <center style={{
                 position: "absolute",
-                top: "17vh",
+                top: "10vh",
                 color: "white",
                 fontSize: "3rem",
                 width: "50px",

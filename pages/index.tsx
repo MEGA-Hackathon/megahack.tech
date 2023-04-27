@@ -11,7 +11,7 @@ export default function Home() {
     <>
       {/* <Nav /> */}
       <HomeMain />
-      {/* <Class /> */}
+      {/* <Class  /> */}
       <Footer />
     </>
   )
