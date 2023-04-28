@@ -354,7 +354,7 @@ const HomeMain = () => {
                         learnMoreLink="https://opportunities.megahack.tech"
                         learnMoreHeader="Apply Now"
                     />
-                    <EventCard 
+                    {/* <EventCard 
                         image="https://th.bing.com/th?id=OIF.szTO4bn%2f1cxnvkOmCAMOnw&pid=ImgDet&rs=1"
                         title="MEGA INCUBATOR"
                         date="TBD"
@@ -362,8 +362,8 @@ const HomeMain = () => {
                         style="Incubator"
                         description="MEGA Hackathon is running a incubator next year to help high-school startups find footing in the ever-changing world and industry."
                         learnMoreLink="https://incubator.megahack.tech"
-                        learnMoreHeader="MEGA China Webpage"
-                    />
+                        learnMoreHeader="Go To Incubator"
+                    /> */}
                     <EventCard 
                         image="https://th.bing.com/th/id/R.e0659da65fe339b3c804a6f0da39e5ba?rik=eVJGrtf3YRn3nw&pid=ImgRaw&r=0"
                         title="MEGA CHINA - 2023 HACKATHON"
