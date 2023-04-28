@@ -123,7 +123,7 @@ const HomeMain = () => {
     return (
         <main>
             {/* Sorry Kai this is quickfix for liability */}
-            <a href="https://debate.megahack.tech" style={{position: "fixed", zIndex: 1000, top: 0, width: "100%", padding: 25, backgroundImage: "linear-gradient(rgba(0, 255, 145, 1), rgba(255, 255, 0, 1))", borderBottomRightRadius: 25, borderBottomLeftRadius: 25, alignSelf: "center", fontFamily: "'Montserrat', sans-serif;"}}>NEW! MEGA worldwide debate 2023 | Register for this summer.</a>
+            <a href="https://worldwidedebate.megahack.tech" style={{position: "fixed", zIndex: 1000, top: 0, width: "100%", padding: 25, backgroundImage: "linear-gradient(rgba(0, 255, 145, 1), rgba(255, 255, 0, 1))", borderBottomRightRadius: 25, borderBottomLeftRadius: 25, alignSelf: "center", fontFamily: "'Montserrat', sans-serif;"}}>NEW! MEGA worldwide debate 2023 | Register for this summer.</a>
             {/* <a href="https://live.megahack.tech"><img src="https://media.discordapp.net/attachments/857650733233995776/1096850122350010580/3d_gradient_sphere_5k-other_1_1.png" style={{width: "100%"}}/></a> */}
             <section className="home-main">
                 <div className="home-main-subheader">MEGA Hackathon MMXXIII</div>
@@ -381,7 +381,7 @@ const HomeMain = () => {
                         category="Competetive"
                         style="Debate"
                         description="MEGA Hackathon is running its first annual debate. This debate will focus on the UN SDGs like the hackathon."
-                        learnMoreLink="https://debate.megahack.tech"
+                        learnMoreLink="https://worldwidedebate.megahack.tech"
                         learnMoreHeader="Pre-Register"
                     />
                     <EventCard 
