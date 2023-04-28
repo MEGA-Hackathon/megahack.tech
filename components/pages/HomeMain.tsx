@@ -345,7 +345,7 @@ const HomeMain = () => {
                 />
                 <div className="home-events-wrapper">
                     <EventCard 
-                        image="https://th.bing.com/th/id/R.8141946123395d7f08744c15f070a9d1?rik=fdME6Y%2bDO%2fqTBw&pid=ImgRaw&r=0"
+                        image="https://images.unsplash.com/photo-1680969194467-648f8af9a618?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
                         title="WORK WITH US"
                         date="Now"
                         category="Casual"
@@ -375,7 +375,7 @@ const HomeMain = () => {
                         learnMoreHeader="MEGA China Webpage"
                     />
                     <EventCard 
-                        image="https://th.bing.com/th/id/OIP.K_PGogquyyrlg7NWglgP6wHaE6?pid=ImgDet&rs=1"
+                        image="https://images.unsplash.com/photo-1682100615199-5a90830ccbb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80"
                         title="THE MEGA WORLDWIDE DEBATE 2023"
                         date="TBD"
                         category="Competetive"
