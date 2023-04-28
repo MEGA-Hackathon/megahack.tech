@@ -8,7 +8,8 @@ type HeaderFormatProps = {
     buttonText?: String,
     headerLevel?: Number,
     theme: "dark" | "light",
-    centered?: Boolean
+    centered?: Boolean,
+    link?: String
 }
 
 const HeaderFormat = ({
@@ -18,7 +19,8 @@ const HeaderFormat = ({
     buttonText,
     headerLevel,
     theme,
-    centered
+    centered,
+    link = "https://airtable.com/shr6YRvkQ9geLsnXD"
 }: HeaderFormatProps) => {
     // Reverse the theme for the classes
     const themeClass = theme === "dark" ? "light" : "dark";
@@ -59,7 +61,7 @@ const HeaderFormat = ({
             { buttonText &&
             <Button 
                 text={buttonText}
-                href="https://airtable.com/shr6YRvkQ9geLsnXD"
+                href={link}
                 newTab={true}
                 className="header-format-button"
             />

@@ -123,7 +123,7 @@ const HomeMain = () => {
     return (
         <main>
             {/* Sorry Kai this is quickfix for liability */}
-            <a href="https://worldwidedebate.megahack.tech" style={{position: "fixed", zIndex: 1000, top: 0, width: "100%", padding: 25, backgroundImage: "linear-gradient(rgba(0, 255, 145, 1), rgba(255, 255, 0, 1))", borderBottomRightRadius: 25, borderBottomLeftRadius: 25, alignSelf: "center", fontFamily: "'Montserrat', sans-serif;"}}>NEW! MEGA worldwide debate 2023 | Register for this summer.</a>
+            <a href="#events" style={{position: "fixed", zIndex: 1000, top: 0, width: "100%", padding: 25, backgroundImage: "linear-gradient(rgba(0, 255, 145, 1), rgba(255, 255, 0, 1))", borderBottomRightRadius: 25, borderBottomLeftRadius: 25, alignSelf: "center", fontFamily: "'Montserrat', sans-serif;"}}>NEW! Check out the new MEGA Events for this summer!</a>
             {/* <a href="https://live.megahack.tech"><img src="https://media.discordapp.net/attachments/857650733233995776/1096850122350010580/3d_gradient_sphere_5k-other_1_1.png" style={{width: "100%"}}/></a> */}
             <section className="home-main">
                 <div className="home-main-subheader">MEGA Hackathon MMXXIII</div>
@@ -137,7 +137,7 @@ const HomeMain = () => {
                     <BigButton 
                         text="View Summary" 
                         arrow={true} 
-                        href="https://live.megahack.tech" 
+                        href="https://hack2023.megahack.tech" 
                         newTab={true}
                     />
                 </div>
@@ -345,7 +345,7 @@ const HomeMain = () => {
                 />
                 <div className="home-events-wrapper">
                     <EventCard 
-                        image="https://images.unsplash.com/photo-1680969194467-648f8af9a618?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                        image="https://media.discordapp.net/attachments/857650733233995776/1101546450921463879/image.png?width=1155&height=662"
                         title="WORK WITH US"
                         date="Now"
                         category="Casual"
@@ -391,7 +391,7 @@ const HomeMain = () => {
                         category="Competetive"
                         style="Hackathon"
                         description="Like last year, MEGA Hackathon hosted another Hackathon event in 2023 themed on real-world problems."
-                        learnMoreLink="https://live.megahack.tech"
+                        learnMoreLink="https://hack2023.megahack.tech"
                         learnMoreHeader="View Summary"
                     />
                     <EventCard 
@@ -402,7 +402,7 @@ const HomeMain = () => {
                         style="Workshop"
                         description="MEGA teamed up with Columbia PHD students and Professors at Love and Future to educate the youth on the importance of Digital Storytelling through this transfomative course on AI and its impact in climate."
                         learnMoreHeader="Learn More"
-                        learnMoreLink="./digital-storytelling-class-2023"
+                        learnMoreLink="https://megahack.tech/digital-storytelling-class-2023"
                     />
                     <EventCard 
                         image="https://images-ext-2.discordapp.net/external/7aSNtvp2uTD-TslaGZH-LQN7QBm-C4Op6DOfF3oghig/%3Fraw%3Dtrue/https/github.com/MEGA-Hackathon/website-current/blob/main/src/assets/top.png?width=1143&height=857"
@@ -411,7 +411,7 @@ const HomeMain = () => {
                         category="Completed"
                         style="Hackathon"
                         description="Our first annual MEGA Hackathon. It was a blast! Winners took home internships and $50k+ of prizes."
-                        learnMoreLink="https://live.megahack.tech"
+                        learnMoreLink="https://hack2022.megahack.tech"
                         learnMoreHeader="Learn More"
                     />
                 </div>
@@ -488,7 +488,7 @@ const HomeMain = () => {
                 <div style={{height: 50}}/>
                 <BigButton 
                     text="View Summary"
-                    href="https://live.megahack.tech"
+                    href="https://hack2023.megahack.tech"
                     newTab={true}
                 />
                 {/* <div className="home-gallery-container">

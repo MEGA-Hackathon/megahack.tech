@@ -7,10 +7,11 @@ const Footer = () => {
             <GridLines dark={true} />
             <div className="footer-align">
                 <HeaderFormat 
-                    subheader="Join Now"
+                    subheader="Join Our Team @ MEGA"
                     header="Let's Improve Human Development"
                     buttonText="Register"
                     theme="dark"
+                    link={"https://opportunities.megahack.tech"}
                     headerLevel={2}
                     centered={true}
                 />
