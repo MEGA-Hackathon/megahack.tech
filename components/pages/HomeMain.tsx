@@ -345,6 +345,36 @@ const HomeMain = () => {
                 />
                 <div className="home-events-wrapper">
                     <EventCard 
+                        image="https://th.bing.com/th/id/R.8141946123395d7f08744c15f070a9d1?rik=fdME6Y%2bDO%2fqTBw&pid=ImgRaw&r=0"
+                        title="WORK WITH US"
+                        date="Now"
+                        category="Casual"
+                        style="Internship"
+                        description="MEGA Hackathon is looking for truly MEGA individuals to help us run MEGA."
+                        learnMoreLink="https://opportunities.megahack.tech"
+                        learnMoreHeader="Apply Now"
+                    />
+                    <EventCard 
+                        image="https://th.bing.com/th?id=OIF.szTO4bn%2f1cxnvkOmCAMOnw&pid=ImgDet&rs=1"
+                        title="MEGA INCUBATOR"
+                        date="TBD"
+                        category="Startups & Finance"
+                        style="Incubator"
+                        description="MEGA Hackathon is running a incubator next year to help high-school startups find footing in the ever-changing world and industry."
+                        learnMoreLink="https://incubator.megahack.tech"
+                        learnMoreHeader="MEGA China Webpage"
+                    />
+                    <EventCard 
+                        image="https://th.bing.com/th/id/R.e0659da65fe339b3c804a6f0da39e5ba?rik=eVJGrtf3YRn3nw&pid=ImgRaw&r=0"
+                        title="MEGA CHINA - 2023 HACKATHON"
+                        date="TBD"
+                        category="Competetive"
+                        style="Hackathon"
+                        description="MEGA Hackathon is running a proxy hackathon in China in the summer of 2023 with a similar theme."
+                        learnMoreLink="https://china.megahack.tech"
+                        learnMoreHeader="MEGA China Webpage"
+                    />
+                    <EventCard 
                         image="https://th.bing.com/th/id/OIP.K_PGogquyyrlg7NWglgP6wHaE6?pid=ImgDet&rs=1"
                         title="THE MEGA WORLDWIDE DEBATE 2023"
                         date="TBD"
