@@ -1,7 +1,9 @@
 import GridLines from "./GridLines"
 import HeaderFormat from "../layouts/HeaderFormat"
+import { useEffect } from "react"
 
 const Footer = () => {
+
     return (
         <footer>
             <GridLines dark={true} />
