@@ -367,7 +367,7 @@ const HomeMain = () => {
                     <EventCard 
                         image="https://th.bing.com/th/id/R.e0659da65fe339b3c804a6f0da39e5ba?rik=eVJGrtf3YRn3nw&pid=ImgRaw&r=0"
                         title="MEGA CHINA - 2023 HACKATHON"
-                        date="TBD"
+                        date="July"
                         category="Competetive"
                         style="Hackathon"
                         description="MEGA Hackathon is running a proxy hackathon in China in the summer of 2023 with a similar theme."
@@ -377,7 +377,7 @@ const HomeMain = () => {
                     <EventCard 
                         image="https://images.unsplash.com/photo-1682100615199-5a90830ccbb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80"
                         title="THE MEGA WORLDWIDE DEBATE 2023"
-                        date="TBD"
+                        date="May 20th - 21st"
                         category="Competetive"
                         style="Debate"
                         description="MEGA Hackathon is running its first annual debate. This debate will focus on the UN SDGs like the hackathon."
@@ -397,7 +397,7 @@ const HomeMain = () => {
                     <EventCard 
                         image="https://images.unsplash.com/photo-1655720828018-edd2daec9349?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
                         title="Digital Storytelling using AI"
-                        date="Done"
+                        date="Feb - April 2023"
                         category="AI/ML"
                         style="Workshop"
                         description="MEGA teamed up with Columbia PHD students and Professors at Love and Future to educate the youth on the importance of Digital Storytelling through this transfomative course on AI and its impact in climate."
