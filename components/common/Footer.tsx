@@ -13,7 +13,7 @@ const Footer = () => {
                     header="Let's Improve Human Development"
                     buttonText="Register"
                     theme="dark"
-                    link={"https://opportunities.megahack.tech"}
+                    link={"https://china.megahack.tech"}
                     headerLevel={2}
                     centered={true}
                 />

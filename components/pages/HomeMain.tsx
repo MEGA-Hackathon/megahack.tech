@@ -131,13 +131,13 @@ const HomeMain = () => {
                 <p className="home-main-description">
                 MEGA is a coalition of high-school and college students who host a hybrid hackathon catered to the United Nations&#39; seventeen sustainable development goals.
                 Infusing STEM and UN SDGs, the annual MEGA Hackathon raises awareness for global welfare while instilling passion in computer science students. 
-                <br/><br/>MEGA Hackathon 2023 has ended. View Summary Below.
+                <br/><br/>MEGA Hackathon 2023:China is about to start! (July 22nd-25th Beijing Time).
                 </p>
                 <div className="home-button-align">
                     <BigButton 
-                        text="View Summary" 
+                        text="Sign Up" 
                         arrow={true} 
-                        href="https://hack2023.megahack.tech" 
+                        href="https://china.megahack.tech" 
                         newTab={true}
                     />
                 </div>
@@ -367,12 +367,12 @@ const HomeMain = () => {
                     <EventCard 
                         image="https://th.bing.com/th/id/R.e0659da65fe339b3c804a6f0da39e5ba?rik=eVJGrtf3YRn3nw&pid=ImgRaw&r=0"
                         title="MEGA CHINA - 2023 HACKATHON"
-                        date="July"
+                        date="July 22nd - 25th"
                         category="Competetive"
                         style="Hackathon"
                         description="MEGA Hackathon is running a proxy hackathon in China in the summer of 2023 with a similar theme."
                         learnMoreLink="https://china.megahack.tech"
-                        learnMoreHeader="MEGA China Webpage"
+                        learnMoreHeader="Sign Up"
                     />
                     <EventCard 
                         image="https://images.unsplash.com/photo-1682100615199-5a90830ccbb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80"
@@ -487,7 +487,7 @@ const HomeMain = () => {
                 />
                 <div style={{height: 50}}/>
                 <BigButton 
-                    text="View Summary"
+                    text="View Details"
                     href="https://hack2023.megahack.tech"
                     newTab={true}
                 />
