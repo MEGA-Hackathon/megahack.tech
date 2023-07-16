@@ -137,7 +137,7 @@ const HomeMain = () => {
                     <BigButton 
                         text="Sign Up" 
                         arrow={true} 
-                        href="https://china.megahack.tech" 
+                        href="https://mega-hackathon-2023-summer.devpost.com/" 
                         newTab={true}
                     />
                 </div>
